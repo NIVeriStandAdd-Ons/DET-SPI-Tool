@@ -1,6 +1,6 @@
 ## IP Name ##
 
-**DET SPI Tool** is a insert description of IP
+**DET SPI Tool** is a insert description of IP.
 
 ### LabVIEW Version ###
 
