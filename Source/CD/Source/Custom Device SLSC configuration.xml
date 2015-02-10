@@ -86,6 +86,10 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main On Compile Action VI.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     
 <Page>

@@ -17,10 +17,14 @@
 			<Item Name="Add DIO card.vi" Type="VI" URL="../Add DIO card.vi"/>
 			<Item Name="Add FIU Card.vi" Type="VI" URL="../Add FIU Card.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
+			<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Main On Compile Action VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add card dialog.vi" Type="VI" URL="../Add card dialog.vi"/>
+			<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/Compile DIO.vi"/>
+			<Item Name="Compile FIU.vi" Type="VI" URL="../subVIs/Compile FIU.vi"/>
+			<Item Name="Get SPI init FIFo elements for card.vi" Type="VI" URL="../Get SPI init FIFo elements for card.vi"/>
 			<Item Name="Init DIO page.vi" Type="VI" URL="../subVIs/Init DIO page.vi"/>
 			<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/Init FIU page.vi"/>
 			<Item Name="Is name unique.vi" Type="VI" URL="../subVIs/Is name unique.vi"/>
