@@ -18,5 +18,6 @@
 			<Item Name="FIU compiled.ctl" Type="VI" URL="../FIU compiled.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="FIU channel values to SPI 16bit SPI data.vi" Type="VI" URL="../FIU channel values to SPI 16bit SPI data.vi"/>
 	</Item>
 </Library>
