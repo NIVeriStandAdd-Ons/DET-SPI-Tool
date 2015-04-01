@@ -4,7 +4,7 @@
 
 ### LabVIEW Version ###
 
-LabVIEW 2013 SP1
+LabVIEW 2014
 
 ### Built Availability ###
 
@@ -12,12 +12,10 @@ No built version
 
 ### Quality, Limitations ###
 
-In progress
-
+Beta, Limited functionality
 
 ### Dependencies ###
 
-VS Inline Async CD API  
 LabVIEW FPGA
 NI SPI IP (https://decibel.ni.com/content/docs/DOC-26411)
 
