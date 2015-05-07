@@ -1,6 +1,6 @@
 ## IP Name ##
 
-**DET SPI Tool** is a insert description of IP
+**DET SPI Tool** is a insert description of IP.
 
 ### LabVIEW Version ###
 
@@ -18,8 +18,8 @@ In progress
 ### Dependencies ###
 
 VS Inline Async CD API  
-LabVIEW FPGA
-NI SPI IP (https://decibel.ni.com/content/docs/DOC-26411)
+LabVIEW FPGA 2014
+NI SPI IP 1.2.1.2 (ftp://ftp.ni.com/evaluation/labview/lvtn/vipm/packages/national_instruments_lib_ni_spi_ip/)
 
 ### License ###
 
