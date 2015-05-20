@@ -16,9 +16,68 @@
 			<Item Name="Faults.ctl" Type="VI" URL="../Faults.ctl"/>
 			<Item Name="SLSC compiled.ctl" Type="VI" URL="../SLSC compiled.ctl"/>
 			<Item Name="FIU compiled.ctl" Type="VI" URL="../FIU compiled.ctl"/>
+			<Item Name="Device Settings.ctl" Type="VI" URL="../Type Defs/Device Settings.ctl"/>
+			<Item Name="FIU Engine Data.ctl" Type="VI" URL="../Type Defs/FIU Engine Data.ctl"/>
+			<Item Name="FIU IDs.ctl" Type="VI" URL="../Type Defs/FIU IDs.ctl"/>
+		</Item>
+		<Item Name="Support VIs" Type="Folder">
+			<Item Name="DIO Board" Type="Folder">
+				<Item Name="Configure DIO Board.vi" Type="VI" URL="../../../../Example/DIO Board/Configure DIO Board.vi"/>
+				<Item Name="Logic Threshold to Byte.vi" Type="VI" URL="../../../../Example/DIO Board/Logic Threshold to Byte.vi"/>
+				<Item Name="Write DIO Bank States.vi" Type="VI" URL="../../../../Example/DIO Board/Write DIO Bank States.vi"/>
+				<Item Name="DIO Line Config.ctl" Type="VI" URL="../../../../Example/DIO Board/DIO Line Config.ctl"/>
+			</Item>
+			<Item Name="MCP23S17" Type="Folder">
+				<Item Name="Change Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Change Pin.vi"/>
+				<Item Name="Chip Address.ctl" Type="VI" URL="../../../../Example/MCP23S17/Chip Address.ctl"/>
+				<Item Name="Configure for Sequential Mode.vi" Type="VI" URL="../../../../Example/MCP23S17/Configure for Sequential Mode.vi"/>
+				<Item Name="Input Polarity.ctl" Type="VI" URL="../../../../Example/MCP23S17/Input Polarity.ctl"/>
+				<Item Name="IOCON BANK 0 Reg Addresses.ctl" Type="VI" URL="../../../../Example/MCP23S17/IOCON BANK 0 Reg Addresses.ctl"/>
+				<Item Name="MCP23S17.lvlib" Type="Library" URL="../../../../Example/MCP23S17/MCP23S17.lvlib"/>
+				<Item Name="OPCODE.ctl" Type="VI" URL="../../../../Example/MCP23S17/OPCODE.ctl"/>
+				<Item Name="Output Latch.ctl" Type="VI" URL="../../../../Example/MCP23S17/Output Latch.ctl"/>
+				<Item Name="Pin Mode.ctl" Type="VI" URL="../../../../Example/MCP23S17/Pin Mode.ctl"/>
+				<Item Name="Pin.ctl" Type="VI" URL="../../../../Example/MCP23S17/Pin.ctl"/>
+				<Item Name="Pullup Mode.ctl" Type="VI" URL="../../../../Example/MCP23S17/Pullup Mode.ctl"/>
+				<Item Name="Read Byte.vi" Type="VI" URL="../../../../Example/MCP23S17/Read Byte.vi"/>
+				<Item Name="Read Digital All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Read Digital All Pins.vi"/>
+				<Item Name="SPI Command.ctl" Type="VI" URL="../../../../Example/MCP23S17/SPI Command.ctl"/>
+				<Item Name="Switch to Bank 0.vi" Type="VI" URL="../../../../Example/MCP23S17/Switch to Bank 0.vi"/>
+				<Item Name="Update Input Polarity All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Input Polarity All Pins.vi"/>
+				<Item Name="Update Input Polarity Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Input Polarity Pin.vi"/>
+				<Item Name="Update Input Polarity.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Input Polarity.vi"/>
+				<Item Name="Update Mode All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Mode All Pins.vi"/>
+				<Item Name="Update Mode Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Mode Pin.vi"/>
+				<Item Name="Update Mode.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Mode.vi"/>
+				<Item Name="Update Output Latch All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Output Latch All Pins.vi"/>
+				<Item Name="Update Output Latch Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Output Latch Pin.vi"/>
+				<Item Name="Update Output Latch.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Output Latch.vi"/>
+				<Item Name="Update Pullup All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Pullup All Pins.vi"/>
+				<Item Name="Update Pullup Mode.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Pullup Mode.vi"/>
+				<Item Name="Update Pullup Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Update Pullup Pin.vi"/>
+				<Item Name="Write Byte.vi" Type="VI" URL="../../../../Example/MCP23S17/Write Byte.vi"/>
+				<Item Name="Write Digital All Pins.vi" Type="VI" URL="../../../../Example/MCP23S17/Write Digital All Pins.vi"/>
+				<Item Name="Write Digital Pin.vi" Type="VI" URL="../../../../Example/MCP23S17/Write Digital Pin.vi"/>
+				<Item Name="Write Digital.vi" Type="VI" URL="../../../../Example/MCP23S17/Write Digital.vi"/>
+				<Item Name="Write Word.vi" Type="VI" URL="../../../../Example/MCP23S17/Write Word.vi"/>
+			</Item>
+			<Item Name="SPI Utility" Type="Folder">
+				<Item Name="Build FIFO SPI Message.vi" Type="VI" URL="../../../../Example/SPI Utility/Build FIFO SPI Message.vi"/>
+				<Item Name="CS Bits.ctl" Type="VI" URL="../../../../Example/SPI Utility/CS Bits.ctl"/>
+				<Item Name="Slot #.ctl" Type="VI" URL="../../../../Example/SPI Utility/Slot #.ctl"/>
+				<Item Name="SPI Utility.lvlib" Type="Library" URL="../../../../Example/SPI Utility/SPI Utility.lvlib"/>
+			</Item>
+			<Item Name="FIU Board" Type="Folder">
+				<Item Name="Configure FIU Board.vi" Type="VI" URL="../../../../Example/FIU Board/Configure FIU Board.vi"/>
+				<Item Name="Fault State.ctl" Type="VI" URL="../../../../Example/FIU Board/Fault State.ctl"/>
+				<Item Name="Fault States to Word.vi" Type="VI" URL="../../../../Example/FIU Board/Fault States to Word.vi"/>
+				<Item Name="Write FIU Bank States.vi" Type="VI" URL="../../../../Example/FIU Board/Write FIU Bank States.vi"/>
+				<Item Name="Bank Fault States.ctl" Type="VI" URL="../../../../Example/FIU Board/Bank Fault States.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="FIU channel values to SPI 16bit SPI data.vi" Type="VI" URL="../FIU channel values to SPI 16bit SPI data.vi"/>
+		<Item Name="Card Position.ctl" Type="VI" URL="../../System Explorer/Type Defs/Card Position.ctl"/>
 	</Item>
 	<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Res Sim compiled.ctl"/>
 </Library>

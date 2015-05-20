@@ -11,13 +11,17 @@
 		<Item Name="Init" Type="Folder">
 			<Item Name="Init FPGA code.vi" Type="VI" URL="../Init FPGA code.vi"/>
 			<Item Name="Init SPI.vi" Type="VI" URL="../Init SPI.vi"/>
+			<Item Name="Initialize FIU References.vi" Type="VI" URL="../SubVIs/Initialize FIU References.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Update FIU.vi" Type="VI" URL="../Update FIU.vi"/>
+			<Item Name="Write FIU.vi" Type="VI" URL="../SubVIs/Write FIU.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
+	<Item Name="Types" Type="Folder">
+		<Item Name="FIU Engine Refs.ctl" Type="VI" URL="../Type Defs/FIU Engine Refs.ctl"/>
+		<Item Name="RT data.ctl" Type="VI" URL="../RT data.ctl"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 	<Item Name="Update Resistive Sim.vi" Type="VI" URL="../Update Resistive Sim.vi"/>
 </Library>

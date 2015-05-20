@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>SLSC configuration</eng>
-    <loc>SLSC configuration</loc>
+    <eng>National Instruments::SLSC Configuration</eng>
+    <loc>National Instruments::SLSC Configuration</loc>
   </AddMenu>
   <Version>1.0.0</Version>
   <Type>Inline HW Interface</Type>
@@ -48,8 +48,8 @@
   <Pages>
     <Page>
       <Name>
-        <eng>SLSC configuration</eng>
-        <loc>SLSC configuration</loc>
+        <eng>SLSC Configuration</eng>
+        <loc>SLSC Configuration</loc>
       </Name>
       <GUID>1669feb8-c7a5-4ea6-863a-145b2f30e50b</GUID>
       <Glyph>
@@ -153,6 +153,7 @@
         <eng>FIU line</eng>
         <loc>FIU line</loc>
       </Name>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>419d9b57-9547-4c03-8a6e-b71d44e1efd6</GUID>
       <Glyph>
 			<Type>To Common Doc Dir</Type>

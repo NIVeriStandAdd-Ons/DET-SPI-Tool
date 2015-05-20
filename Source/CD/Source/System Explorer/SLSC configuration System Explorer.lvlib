@@ -9,6 +9,9 @@
 </Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
+			<Item Name="Action VIs" Type="Folder">
+				<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Main On Compile Action VI.vi"/>
+			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="DIO card.vi" Type="VI" URL="../DIO card.vi"/>
@@ -17,24 +20,39 @@
 				<Item Name="Resistive card.vi" Type="VI" URL="../Resistive card.vi"/>
 				<Item Name="Resistive channel.vi" Type="VI" URL="../Resistive channel.vi"/>
 			</Item>
-			<Item Name="Add DIO card.vi" Type="VI" URL="../Add DIO card.vi"/>
-			<Item Name="Add FIU Card.vi" Type="VI" URL="../Add FIU Card.vi"/>
-			<Item Name="Add Resistive card.vi" Type="VI" URL="../Add Resistive card.vi"/>
+			<Item Name="Menu Items" Type="Folder">
+				<Item Name="Add DIO card.vi" Type="VI" URL="../Add DIO card.vi"/>
+				<Item Name="Add FIU Card.vi" Type="VI" URL="../Add FIU Card.vi"/>
+				<Item Name="Add Resistive card.vi" Type="VI" URL="../Add Resistive card.vi"/>
+			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Main On Compile Action VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Add card dialog.vi" Type="VI" URL="../Add card dialog.vi"/>
+			<Item Name="Add FIU Card From Table.vi" Type="VI" URL="../Add FIU Card From Table.vi"/>
+			<Item Name="Add DIO Card From Table.vi" Type="VI" URL="../Add DIO Card From Table.vi"/>
+			<Item Name="Compile Device Settings.vi" Type="VI" URL="../subVIs/Compile Device Settings.vi"/>
 			<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/Compile DIO.vi"/>
 			<Item Name="Compile FIU.vi" Type="VI" URL="../subVIs/Compile FIU.vi"/>
+			<Item Name="Compute Clock Frequency.vi" Type="VI" URL="../subVIs/Compute Clock Frequency.vi"/>
+			<Item Name="Double-Click Action.vi" Type="VI" URL="../subVIs/Double-Click Action.vi"/>
+			<Item Name="Execute Menu Item.vi" Type="VI" URL="../subVIs/Execute Menu Item.vi"/>
+			<Item Name="Get Fault States.vi" Type="VI" URL="../subVIs/Get Fault States.vi"/>
 			<Item Name="Get SPI init FIFo elements for card.vi" Type="VI" URL="../Get SPI init FIFo elements for card.vi"/>
 			<Item Name="Init DIO page.vi" Type="VI" URL="../subVIs/Init DIO page.vi"/>
 			<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/Init FIU page.vi"/>
 			<Item Name="Is name unique.vi" Type="VI" URL="../subVIs/Is name unique.vi"/>
+			<Item Name="Is slot empty.vi" Type="VI" URL="../subVIs/Is slot empty.vi"/>
 			<Item Name="Lower resolution.vi" Type="VI" URL="../subVIs/Lower resolution.vi"/>
+			<Item Name="Update Menu Items.vi" Type="VI" URL="../subVIs/Update Menu Items.vi"/>
+			<Item Name="Update Slot Configuration.vi" Type="VI" URL="../subVIs/Update Slot Configuration.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="RIO Device Address.ctl" Type="VI" URL="../../Shared/Type Defs/RIO Device Address.ctl"/>
+			<Item Name="Valid.ctl" Type="VI" URL="../Type Defs/Valid.ctl"/>
+		</Item>
 		<Item Name="SLSC.png" Type="Document" URL="../Glyphs/SLSC.png"/>
 		<Item Name="SLSC_DIO.png" Type="Document" URL="../Glyphs/SLSC_DIO.png"/>
 		<Item Name="SLSC_FIU.png" Type="Document" URL="../Glyphs/SLSC_FIU.png"/>
@@ -42,5 +60,4 @@
 	<Item Name="Add Res Card.vi" Type="VI" URL="../Add Res Card.vi"/>
 	<Item Name="Compile Res Sim.vi" Type="VI" URL="../subVIs/Compile Res Sim.vi"/>
 	<Item Name="Init Resistive Sim page.vi" Type="VI" URL="../subVIs/Init Resistive Sim page.vi"/>
-	<Item Name="Is slot empty.vi" Type="VI" URL="../subVIs/Is slot empty.vi"/>
 </Library>
