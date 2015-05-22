@@ -10,7 +10,6 @@
 	<Item Name="Shared" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Types" Type="Folder">
-			<Item Name="Card Postion.ctl" Type="VI" URL="../Card Postion.ctl"/>
 			<Item Name="DIO byte config.ctl" Type="VI" URL="../DIO byte config.ctl"/>
 			<Item Name="DIO card config.ctl" Type="VI" URL="../DIO card config.ctl"/>
 			<Item Name="Faults.ctl" Type="VI" URL="../Faults.ctl"/>
@@ -19,6 +18,7 @@
 			<Item Name="Device Settings.ctl" Type="VI" URL="../Type Defs/Device Settings.ctl"/>
 			<Item Name="FIU Engine Data.ctl" Type="VI" URL="../Type Defs/FIU Engine Data.ctl"/>
 			<Item Name="FIU IDs.ctl" Type="VI" URL="../Type Defs/FIU IDs.ctl"/>
+			<Item Name="Card Position.ctl" Type="VI" URL="../../System Explorer/Type Defs/Card Position.ctl"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Item Name="DIO Board" Type="Folder">
@@ -77,7 +77,6 @@
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="FIU channel values to SPI 16bit SPI data.vi" Type="VI" URL="../FIU channel values to SPI 16bit SPI data.vi"/>
-		<Item Name="Card Position.ctl" Type="VI" URL="../../System Explorer/Type Defs/Card Position.ctl"/>
 	</Item>
 	<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Res Sim compiled.ctl"/>
 </Library>

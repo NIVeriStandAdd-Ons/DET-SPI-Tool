@@ -48,9 +48,15 @@
 			<Item Name="Lower resolution.vi" Type="VI" URL="../subVIs/Lower resolution.vi"/>
 			<Item Name="Update Menu Items.vi" Type="VI" URL="../subVIs/Update Menu Items.vi"/>
 			<Item Name="Update Slot Configuration.vi" Type="VI" URL="../subVIs/Update Slot Configuration.vi"/>
+			<Item Name="Get SLSC Lib Version.vi" Type="VI" URL="../subVIs/Get SLSC Lib Version.vi"/>
+			<Item Name="SLSC Version string to Enum.vi" Type="VI" URL="../subVIs/SLSC Version string to Enum.vi"/>
+			<Item Name="Bitfile SLSC Interfaces.vi" Type="VI" URL="../subVIs/Bitfile SLSC Interfaces.vi"/>
+			<Item Name="Load Bitfile Settings.vi" Type="VI" URL="../subVIs/Load Bitfile Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="Register Types.ctl" Type="VI" URL="../Type Defs/Register Types.ctl"/>
 			<Item Name="RIO Device Address.ctl" Type="VI" URL="../../Shared/Type Defs/RIO Device Address.ctl"/>
+			<Item Name="SLSC Custom Device Version.ctl" Type="VI" URL="../Type Defs/SLSC Custom Device Version.ctl"/>
 			<Item Name="Valid.ctl" Type="VI" URL="../Type Defs/Valid.ctl"/>
 		</Item>
 		<Item Name="SLSC.png" Type="Document" URL="../Glyphs/SLSC.png"/>
@@ -59,5 +65,6 @@
 	</Item>
 	<Item Name="Add Res Card.vi" Type="VI" URL="../Add Res Card.vi"/>
 	<Item Name="Compile Res Sim.vi" Type="VI" URL="../subVIs/Compile Res Sim.vi"/>
+	<Item Name="Create Dependent Bitfile.vi" Type="VI" URL="../subVIs/Create Dependent Bitfile.vi"/>
 	<Item Name="Init Resistive Sim page.vi" Type="VI" URL="../subVIs/Init Resistive Sim page.vi"/>
 </Library>
