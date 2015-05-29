@@ -10,61 +10,127 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Action VIs" Type="Folder">
-				<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Main On Compile Action VI.vi"/>
+				<Item Name="Main ActionVIOnLoad.vi" Type="VI" URL="../Action VIs/Main ActionVIOnLoad.vi"/>
+				<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Action VIs/Main On Compile Action VI.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="DIO card.vi" Type="VI" URL="../DIO card.vi"/>
-				<Item Name="FIU card.vi" Type="VI" URL="../FIU card.vi"/>
-				<Item Name="FIU line.vi" Type="VI" URL="../FIU line.vi"/>
-				<Item Name="Resistive card.vi" Type="VI" URL="../Resistive card.vi"/>
-				<Item Name="Resistive channel.vi" Type="VI" URL="../Resistive channel.vi"/>
+				<Item Name="DIO card.vi" Type="VI" URL="../Pages/DIO card.vi"/>
+				<Item Name="Current Sense card.vi" Type="VI" URL="../Pages/Current Sense card.vi"/>
+				<Item Name="FIU card.vi" Type="VI" URL="../Pages/FIU card.vi"/>
+				<Item Name="FIU line.vi" Type="VI" URL="../Pages/FIU line.vi"/>
+				<Item Name="Battery Switch channel.vi" Type="VI" URL="../Pages/Battery Switch channel.vi"/>
+				<Item Name="Resistor card.vi" Type="VI" URL="../Pages/Resistor card.vi"/>
+				<Item Name="Wheel Speed Sensor card.vi" Type="VI" URL="../Pages/Wheel Speed Sensor card.vi"/>
+				<Item Name="Current Sense channel.vi" Type="VI" URL="../Pages/Current Sense channel.vi"/>
+				<Item Name="Wheel Speed Sensor channel.vi" Type="VI" URL="../Pages/Wheel Speed Sensor channel.vi"/>
+				<Item Name="Resistor channel.vi" Type="VI" URL="../Pages/Resistor channel.vi"/>
+				<Item Name="UEGO card.vi" Type="VI" URL="../Pages/UEGO card.vi"/>
+				<Item Name="Battery Switch card.vi" Type="VI" URL="../Pages/Battery Switch card.vi"/>
 			</Item>
 			<Item Name="Menu Items" Type="Folder">
-				<Item Name="Add DIO card.vi" Type="VI" URL="../Add DIO card.vi"/>
-				<Item Name="Add FIU Card.vi" Type="VI" URL="../Add FIU Card.vi"/>
-				<Item Name="Add Resistive card.vi" Type="VI" URL="../Add Resistive card.vi"/>
+				<Item Name="Add Battery Switch card.vi" Type="VI" URL="../Runtime Menu Items/Add Battery Switch card.vi"/>
+				<Item Name="Add Current Sense card.vi" Type="VI" URL="../Runtime Menu Items/Add Current Sense card.vi"/>
+				<Item Name="Add DIO card.vi" Type="VI" URL="../Runtime Menu Items/Add DIO card.vi"/>
+				<Item Name="Add FIU Card.vi" Type="VI" URL="../Runtime Menu Items/Add FIU Card.vi"/>
+				<Item Name="Add Resistive card.vi" Type="VI" URL="../Runtime Menu Items/Add Resistive card.vi"/>
+				<Item Name="Add UEGO card.vi" Type="VI" URL="../Runtime Menu Items/Add UEGO card.vi"/>
+				<Item Name="Add Wheel Speed Sensor card.vi" Type="VI" URL="../Runtime Menu Items/Add Wheel Speed Sensor card.vi"/>
+				<Item Name="Enable Disable SLSC.vi" Type="VI" URL="../Runtime Menu Items/Enable Disable SLSC.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+			<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
+		</Item>
+		<Item Name="Glyphs" Type="Folder">
+			<Item Name="SLSC.png" Type="Document" URL="../Glyphs/SLSC.png"/>
+			<Item Name="SLSC_Battery_Switch.png" Type="Document" URL="../Glyphs/SLSC_Battery_Switch.png"/>
+			<Item Name="SLSC_Battery_Switch_Channel.png" Type="Document" URL="../Glyphs/SLSC_Battery_Switch_Channel.png"/>
+			<Item Name="SLSC_Current_Sense.png" Type="Document" URL="../Glyphs/SLSC_Current_Sense.png"/>
+			<Item Name="SLSC_Current_Sense_Channel.png" Type="Document" URL="../Glyphs/SLSC_Current_Sense_Channel.png"/>
+			<Item Name="SLSC_DIO.png" Type="Document" URL="../Glyphs/SLSC_DIO.png"/>
+			<Item Name="SLSC_Disabled.png" Type="Document" URL="../Glyphs/SLSC_Disabled.png"/>
+			<Item Name="SLSC_FIU.png" Type="Document" URL="../Glyphs/SLSC_FIU.png"/>
+			<Item Name="SLSC_Oxygen_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Oxygen_Sensor.png"/>
+			<Item Name="SLSC_Resistor.png" Type="Document" URL="../Glyphs/SLSC_Resistor.png"/>
+			<Item Name="SLSC_Resistor_Channel.png" Type="Document" URL="../Glyphs/SLSC_Resistor_Channel.png"/>
+			<Item Name="SLSC_Wheel_Speed_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Wheel_Speed_Sensor.png"/>
+			<Item Name="SLSC_Wheel_Speed_Sensor_Channel.png" Type="Document" URL="../Glyphs/SLSC_Wheel_Speed_Sensor_Channel.png"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Add card dialog.vi" Type="VI" URL="../Add card dialog.vi"/>
-			<Item Name="Add FIU Card From Table.vi" Type="VI" URL="../Add FIU Card From Table.vi"/>
-			<Item Name="Add DIO Card From Table.vi" Type="VI" URL="../Add DIO Card From Table.vi"/>
-			<Item Name="Compile Device Settings.vi" Type="VI" URL="../subVIs/Compile Device Settings.vi"/>
-			<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/Compile DIO.vi"/>
-			<Item Name="Compile FIU.vi" Type="VI" URL="../subVIs/Compile FIU.vi"/>
-			<Item Name="Compute Clock Frequency.vi" Type="VI" URL="../subVIs/Compute Clock Frequency.vi"/>
-			<Item Name="Double-Click Action.vi" Type="VI" URL="../subVIs/Double-Click Action.vi"/>
-			<Item Name="Execute Menu Item.vi" Type="VI" URL="../subVIs/Execute Menu Item.vi"/>
-			<Item Name="Get Fault States.vi" Type="VI" URL="../subVIs/Get Fault States.vi"/>
-			<Item Name="Get SPI init FIFo elements for card.vi" Type="VI" URL="../Get SPI init FIFo elements for card.vi"/>
-			<Item Name="Init DIO page.vi" Type="VI" URL="../subVIs/Init DIO page.vi"/>
-			<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/Init FIU page.vi"/>
-			<Item Name="Is name unique.vi" Type="VI" URL="../subVIs/Is name unique.vi"/>
-			<Item Name="Is slot empty.vi" Type="VI" URL="../subVIs/Is slot empty.vi"/>
-			<Item Name="Lower resolution.vi" Type="VI" URL="../subVIs/Lower resolution.vi"/>
-			<Item Name="Update Menu Items.vi" Type="VI" URL="../subVIs/Update Menu Items.vi"/>
-			<Item Name="Update Slot Configuration.vi" Type="VI" URL="../subVIs/Update Slot Configuration.vi"/>
-			<Item Name="Get SLSC Lib Version.vi" Type="VI" URL="../subVIs/Get SLSC Lib Version.vi"/>
-			<Item Name="SLSC Version string to Enum.vi" Type="VI" URL="../subVIs/SLSC Version string to Enum.vi"/>
-			<Item Name="Bitfile SLSC Interfaces.vi" Type="VI" URL="../subVIs/Bitfile SLSC Interfaces.vi"/>
-			<Item Name="Load Bitfile Settings.vi" Type="VI" URL="../subVIs/Load Bitfile Settings.vi"/>
+			<Item Name="Generic" Type="Folder">
+				<Item Name="Set Position Settings.vi" Type="VI" URL="../subVIs/Generic/Properties/Set Position Settings.vi"/>
+				<Item Name="Add card dialog.vi" Type="VI" URL="../subVIs/Generic/Add card dialog.vi"/>
+				<Item Name="Is name unique.vi" Type="VI" URL="../subVIs/Generic/Is name unique.vi"/>
+				<Item Name="Is slot empty.vi" Type="VI" URL="../subVIs/Generic/Is slot empty.vi"/>
+				<Item Name="Get Position Settings.vi" Type="VI" URL="../subVIs/Generic/Properties/Get Position Settings.vi"/>
+				<Item Name="Update Card Position.vi" Type="VI" URL="../subVIs/Generic/Update Card Position.vi"/>
+				<Item Name="Get Next Available Slot.vi" Type="VI" URL="../subVIs/Generic/Get Next Available Slot.vi"/>
+			</Item>
+			<Item Name="DIO" Type="Folder">
+				<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/DIO/Compile DIO.vi"/>
+				<Item Name="Add DIO Card From Table.vi" Type="VI" URL="../subVIs/DIO/Add DIO Card From Table.vi"/>
+				<Item Name="Init Name Description.vi" Type="VI" URL="../subVIs/Generic/Init Name Description.vi"/>
+				<Item Name="Build DIO Section.vi" Type="VI" URL="../subVIs/DIO/Build DIO Section.vi"/>
+			</Item>
+			<Item Name="FIU" Type="Folder">
+				<Item Name="Add FIU Card From Table.vi" Type="VI" URL="../subVIs/FIU/Add FIU Card From Table.vi"/>
+				<Item Name="Compile FIU.vi" Type="VI" URL="../subVIs/FIU/Compile FIU.vi"/>
+				<Item Name="Get Fault States.vi" Type="VI" URL="../subVIs/FIU/Get Fault States.vi"/>
+				<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/FIU/Init FIU page.vi"/>
+				<Item Name="Build FIU Section.vi" Type="VI" URL="../subVIs/FIU/Build FIU Section.vi"/>
+			</Item>
+			<Item Name="Battery Switch" Type="Folder">
+				<Item Name="Add Battery Switch Card From Table.vi" Type="VI" URL="../subVIs/Battery Switch/Add Battery Switch Card From Table.vi"/>
+				<Item Name="Compile Battery Switch.vi" Type="VI" URL="../subVIs/Battery Switch/Compile Battery Switch.vi"/>
+				<Item Name="Get Battery Switch States.vi" Type="VI" URL="../subVIs/Battery Switch/Get Battery Switch States.vi"/>
+				<Item Name="Build Battery Switch Section.vi" Type="VI" URL="../subVIs/Battery Switch/Build Battery Switch Section.vi"/>
+			</Item>
+			<Item Name="Main" Type="Folder">
+				<Item Name="Compile Device Settings.vi" Type="VI" URL="../subVIs/Main/Compile Device Settings.vi"/>
+				<Item Name="Compute Clock Frequency.vi" Type="VI" URL="../subVIs/Main/Compute Clock Frequency.vi"/>
+				<Item Name="Double-Click Action.vi" Type="VI" URL="../subVIs/Main/Double-Click Action.vi"/>
+				<Item Name="Execute Menu Item.vi" Type="VI" URL="../subVIs/Main/Execute Menu Item.vi"/>
+				<Item Name="Update Menu Items.vi" Type="VI" URL="../subVIs/Main/Update Menu Items.vi"/>
+				<Item Name="Update Slot Configuration.vi" Type="VI" URL="../subVIs/Generic/Update Slot Configuration.vi"/>
+				<Item Name="Get SLSC Lib Version.vi" Type="VI" URL="../subVIs/Main/Get SLSC Lib Version.vi"/>
+				<Item Name="SLSC Version string to Enum.vi" Type="VI" URL="../subVIs/Main/SLSC Version string to Enum.vi"/>
+				<Item Name="Bitfile SLSC Interfaces.vi" Type="VI" URL="../subVIs/Main/Bitfile SLSC Interfaces.vi"/>
+				<Item Name="Load Bitfile Settings.vi" Type="VI" URL="../subVIs/Main/Load Bitfile Settings.vi"/>
+				<Item Name="Create Dependent Bitfile.vi" Type="VI" URL="../subVIs/Main/Create Dependent Bitfile.vi"/>
+				<Item Name="Save Bitfile Settings.vi" Type="VI" URL="../subVIs/Main/Save Bitfile Settings.vi"/>
+			</Item>
+			<Item Name="Resistor" Type="Folder">
+				<Item Name="Get Resistances.vi" Type="VI" URL="../subVIs/Resistor/Get Resistances.vi"/>
+				<Item Name="Add Resistive Card From Table.vi" Type="VI" URL="../subVIs/Resistor/Add Resistive Card From Table.vi"/>
+				<Item Name="Build Resistor Section.vi" Type="VI" URL="../subVIs/Resistor/Build Resistor Section.vi"/>
+				<Item Name="Compile Resistor.vi" Type="VI" URL="../subVIs/Resistor/Compile Resistor.vi"/>
+			</Item>
+			<Item Name="Wheel Speed Sensor" Type="Folder">
+				<Item Name="Add Wheel Speed Sensor Card From Table.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Add Wheel Speed Sensor Card From Table.vi"/>
+				<Item Name="Compile WSS.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Compile WSS.vi"/>
+				<Item Name="Get WSS Modes.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Get WSS Modes.vi"/>
+				<Item Name="Build Wheel Speed Sensor Section.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Build Wheel Speed Sensor Section.vi"/>
+			</Item>
+			<Item Name="UEGO" Type="Folder">
+				<Item Name="Add UEGO Card From Table.vi" Type="VI" URL="../subVIs/UEGO/Add UEGO Card From Table.vi"/>
+				<Item Name="Build UEGO Section.vi" Type="VI" URL="../subVIs/UEGO/Build UEGO Section.vi"/>
+				<Item Name="Update UEGO Cards.vi" Type="VI" URL="../subVIs/UEGO/Update UEGO Cards.vi"/>
+				<Item Name="Compile UEGO.vi" Type="VI" URL="../subVIs/UEGO/Compile UEGO.vi"/>
+			</Item>
+			<Item Name="Current Sense" Type="Folder">
+				<Item Name="Build Current Sense Section.vi" Type="VI" URL="../subVIs/Current Sense/Build Current Sense Section.vi"/>
+				<Item Name="Add Current Sense Card From Table.vi" Type="VI" URL="../subVIs/Current Sense/Add Current Sense Card From Table.vi"/>
+				<Item Name="Get Current Sense Calibration State.vi" Type="VI" URL="../subVIs/Current Sense/Get Current Sense Calibration State.vi"/>
+				<Item Name="Compile Current Sense.vi" Type="VI" URL="../subVIs/Current Sense/Compile Current Sense.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Register Types.ctl" Type="VI" URL="../Type Defs/Register Types.ctl"/>
 			<Item Name="RIO Device Address.ctl" Type="VI" URL="../../Shared/Type Defs/RIO Device Address.ctl"/>
+			<Item Name="SLSC Bitfile Info.ctl" Type="VI" URL="../Type Defs/SLSC Bitfile Info.ctl"/>
 			<Item Name="SLSC Custom Device Version.ctl" Type="VI" URL="../Type Defs/SLSC Custom Device Version.ctl"/>
 			<Item Name="Valid.ctl" Type="VI" URL="../Type Defs/Valid.ctl"/>
 		</Item>
-		<Item Name="SLSC.png" Type="Document" URL="../Glyphs/SLSC.png"/>
-		<Item Name="SLSC_DIO.png" Type="Document" URL="../Glyphs/SLSC_DIO.png"/>
-		<Item Name="SLSC_FIU.png" Type="Document" URL="../Glyphs/SLSC_FIU.png"/>
 	</Item>
-	<Item Name="Add Res Card.vi" Type="VI" URL="../Add Res Card.vi"/>
-	<Item Name="Compile Res Sim.vi" Type="VI" URL="../subVIs/Compile Res Sim.vi"/>
-	<Item Name="Create Dependent Bitfile.vi" Type="VI" URL="../subVIs/Create Dependent Bitfile.vi"/>
-	<Item Name="Init Resistive Sim page.vi" Type="VI" URL="../subVIs/Init Resistive Sim page.vi"/>
 </Library>

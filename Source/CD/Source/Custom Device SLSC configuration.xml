@@ -62,23 +62,35 @@
       </Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>e1d49b1f-389a-4770-b680-894dfdf1c82f</GUID>
+					<GUID>ea5d3c15-8db8-4fd1-8583-9988b6263a80</GUID>
 					<Type>Action</Type>
 					<Name>
-						<eng>Add FIU Card</eng>
-						<loc>Add FIU Card</loc>
+						<eng>Add::Battery Switch Card</eng>
+						<loc>Add::Battery Switch Card</loc>
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add FIU Card.vi</Path>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Battery Switch card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>c1d3789d-de8c-472b-ab67-827acc465b9e</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Current Sense Card</eng>
+						<loc>Add::Current Sense Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Current Sense card.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
 					<GUID>23d6f06b-2858-4781-bea9-2a9f1576ad2d</GUID>
 					<Type>Action</Type>
 					<Name>
-						<eng>Add DIO Card</eng>
-						<loc>Add DIO Card</loc>
+						<eng>Add::DIO Card</eng>
+						<loc>Add::DIO Card</loc>
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
@@ -86,18 +98,263 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>e1d49b1f-389a-4770-b680-894dfdf1c82f</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::FIU Card</eng>
+						<loc>Add::FIU Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add FIU Card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>9bbfbdbf-7883-4557-882e-d60444a63261</GUID>
 					<Type>Action</Type>
 					<Name>
-						<eng>Add Resistive Card</eng>
-						<loc>Add Resistive Card</loc>
+						<eng>Add::Resistive Card</eng>
+						<loc>Add::Resistive Card</loc>
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Resistive Card.vi</Path>
 					</Item2Launch>
-				</MenuItem>			
+				</MenuItem>	
+				<MenuItem>
+					<GUID>eaa277c7-4319-4537-921d-4bb03c004ad0</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Wheel Speed Sensor Card</eng>
+						<loc>Add::Wheel Speed Sensor Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Wheel Speed Sensor card.vi</Path>
+					</Item2Launch>
+				</MenuItem>		
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>49dbf37f-5ca8-4674-891e-178d4b5b0d22</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>3e0059fb-c03c-4d54-9e7f-14e971c8a38f</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Enable Disable SLSC.vi</Path>
+					</Item2Launch>
+				</MenuItem>
 			</RunTimeMenu>
+		<ActionVIOnLoad>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main ActionVIOnLoad.vi</Path>
+		</ActionVIOnLoad>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main On Compile Action VI.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
+	    <Page>
+      <Name>
+        <eng>SLSC Configuration</eng>
+        <loc>SLSC Configuration</loc>
+      </Name>
+      <GUID>8eabe605-99e1-4ccd-8dc0-f89f19004ff1</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Disabled.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>ea5d3c15-8db8-4fd1-8583-9988b6263a80</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Battery Switch Card</eng>
+						<loc>Add::Battery Switch Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Battery Switch card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>c1d3789d-de8c-472b-ab67-827acc465b9e</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Current Sense Card</eng>
+						<loc>Add::Current Sense Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Current Sense card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>23d6f06b-2858-4781-bea9-2a9f1576ad2d</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::DIO Card</eng>
+						<loc>Add::DIO Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add DIO Card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>e1d49b1f-389a-4770-b680-894dfdf1c82f</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::FIU Card</eng>
+						<loc>Add::FIU Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add FIU Card.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>9bbfbdbf-7883-4557-882e-d60444a63261</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Resistive Card</eng>
+						<loc>Add::Resistive Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Resistive Card.vi</Path>
+					</Item2Launch>
+				</MenuItem>	
+				<MenuItem>
+					<GUID>eaa277c7-4319-4537-921d-4bb03c004ad0</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add::Wheel Speed Sensor Card</eng>
+						<loc>Add::Wheel Speed Sensor Card</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Add Wheel Speed Sensor card.vi</Path>
+					</Item2Launch>
+				</MenuItem>		
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>49dbf37f-5ca8-4674-891e-178d4b5b0d22</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>3e0059fb-c03c-4d54-9e7f-14e971c8a38f</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Enable Disable SLSC.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+		<ActionVIOnLoad>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main ActionVIOnLoad.vi</Path>
+		</ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main On Compile Action VI.vi</Path>
@@ -117,6 +374,20 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\FIU card.vi</Path>
       </Item2Launch>
+	  <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
     </Page>
 	<Page>
       <Name>
@@ -126,12 +397,26 @@
       <GUID>8c9eb810-a56f-48f6-b7a1-40928e14985f</GUID>
       <Glyph>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\SLSC configuration\Data\DOESNOTEXIST.png</Path>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Resistor.png</Path>
 	  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Resistive card.vi</Path>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Resistor card.vi</Path>
       </Item2Launch>
+	   <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
     </Page>
 	<Page>
       <Name>
@@ -146,6 +431,123 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\DIO card.vi</Path>
+      </Item2Launch>
+	   <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
+    </Page>
+		<Page>
+      <Name>
+        <eng>Battery Switch card</eng>
+        <loc>Battery Switch card</loc>
+      </Name>
+      <GUID>088b733f-dcb6-43c3-89b9-85f1a5efe81e</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Battery_Switch.png</Path>
+	  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Battery Switch card.vi</Path>
+      </Item2Launch>
+	   <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
+    </Page>
+			<Page>
+      <Name>
+        <eng>Wheel Speed Sensor card</eng>
+        <loc>Wheel Speed Sensor card</loc>
+      </Name>
+      <GUID>f4221155-5f1c-4cea-ae03-1d5c2b71466f</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Wheel_Speed_Sensor.png</Path>
+	  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Wheel Speed Sensor card.vi</Path>
+      </Item2Launch>
+	   <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Current Sensor card</eng>
+        <loc>Current Sensor card</loc>
+      </Name>
+      <GUID>22a74749-cb4a-4d08-9a57-d9f882501be9</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Current_Sense.png</Path>
+	  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Current Sense card.vi</Path>
+      </Item2Launch>
+	   <RunTimeMenu>
+	  	<MenuItem>
+			<GUID>d5c18533-6e77-4ab9-9c9e-5a165efff284</GUID>
+			<Type>Action</Type>
+			<Name>
+				<eng>Delete</eng>
+				<loc>Delete</loc>
+			</Name>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>Actions\Delete.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+		</RunTimeMenu>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Oxygen Sensor card</eng>
+        <loc>Oxygen Sensor card</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>ca3bbe61-0f5e-4312-bf6e-b2e5f37b2ab6</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Oxygen_Sensor.png</Path>
+	  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\UEGO card.vi</Path>
       </Item2Launch>
     </Page>
 	<Page>
@@ -166,17 +568,66 @@
     </Page>
 		<Page>
       <Name>
-        <eng>Resistive channel</eng>
-        <loc>Resistive channel</loc>
+        <eng>Battery Switch channel</eng>
+        <loc>Battery Switch channel</loc>
       </Name>
-      <GUID>c1df0500-e9fe-462d-a67f-7c6056707f28</GUID>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>1c2c1f1a-3a58-495a-bf7b-e933ed2669ef</GUID>
       <Glyph>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\SLSC configuration\Data\DOESNOTEXIST.png</Path>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Battery_Switch_Channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Resistive channel.vi</Path>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Battery Switch channel.vi</Path>
+      </Item2Launch>
+    </Page>
+			<Page>
+      <Name>
+        <eng>Wheel Speed Sensor channel</eng>
+        <loc>Wheel Speed Sensor channel</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>b1057e8f-4024-44e6-964c-b22fb6b0c38d</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Wheel_Speed_Sensor_Channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Wheel Speed Sensor channel.vi</Path>
+      </Item2Launch>
+    </Page>
+		<Page>
+      <Name>
+        <eng>Resistive channel</eng>
+        <loc>Resistive channel</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>c1df0500-e9fe-462d-a67f-7c6056707f28</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Resistor_Channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Resistor channel.vi</Path>
+      </Item2Launch>
+    </Page>
+			<Page>
+      <Name>
+        <eng>Current Sense channel</eng>
+        <loc>Current Sense channel</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>96dbb118-ce34-4cee-8d88-4cdf2e4dc3eb</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_Current_Sense_Channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Current Sense channel.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

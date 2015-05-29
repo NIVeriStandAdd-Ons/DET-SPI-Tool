@@ -9,19 +9,27 @@
 </Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
-			<Item Name="Init FPGA code.vi" Type="VI" URL="../Init FPGA code.vi"/>
-			<Item Name="Init SPI.vi" Type="VI" URL="../Init SPI.vi"/>
-			<Item Name="Initialize FIU References.vi" Type="VI" URL="../SubVIs/Initialize FIU References.vi"/>
+			<Item Name="Init FPGA code.vi" Type="VI" URL="../Init/Init FPGA code.vi"/>
+			<Item Name="Init SPI.vi" Type="VI" URL="../Init/Init SPI.vi"/>
+			<Item Name="Initialize References.vi" Type="VI" URL="../SubVIs/Initialize References.vi"/>
+			<Item Name="Load Engine Settings.vi" Type="VI" URL="../Init/Load Engine Settings.vi"/>
+			<Item Name="Load UEGO Calibration.vi" Type="VI" URL="../Init/Load UEGO Calibration.vi"/>
+			<Item Name="Start SLSC FPGA.vi" Type="VI" URL="../Init/Start SLSC FPGA.vi"/>
+			<Item Name="Wait for UEGO Calibration Completion.vi" Type="VI" URL="../Init/Wait for UEGO Calibration Completion.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Write FIU.vi" Type="VI" URL="../SubVIs/Write FIU.vi"/>
+			<Item Name="Update Resistive Sim.vi" Type="VI" URL="../Run/Update Resistive Sim.vi"/>
+			<Item Name="Write Battery Switch.vi" Type="VI" URL="../Run/Write Battery Switch.vi"/>
+			<Item Name="Write Current Sense.vi" Type="VI" URL="../Run/Write Current Sense.vi"/>
+			<Item Name="Write FIU.vi" Type="VI" URL="../Run/Write FIU.vi"/>
+			<Item Name="Write Resistor.vi" Type="VI" URL="../Run/Write Resistor.vi"/>
+			<Item Name="Write Wheel Speed Sensor.vi" Type="VI" URL="../Run/Write Wheel Speed Sensor.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="FIU Engine Refs.ctl" Type="VI" URL="../Type Defs/FIU Engine Refs.ctl"/>
-		<Item Name="RT data.ctl" Type="VI" URL="../RT data.ctl"/>
+		<Item Name="RT data.ctl" Type="VI" URL="../Type Defs/RT data.ctl"/>
+		<Item Name="RT Engine Refs.ctl" Type="VI" URL="../Type Defs/RT Engine Refs.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="Update Resistive Sim.vi" Type="VI" URL="../Update Resistive Sim.vi"/>
 </Library>
