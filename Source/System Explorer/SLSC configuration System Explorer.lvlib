@@ -66,6 +66,7 @@
 				<Item Name="Get Position Settings.vi" Type="VI" URL="../subVIs/Generic/Properties/Get Position Settings.vi"/>
 				<Item Name="Update Card Position.vi" Type="VI" URL="../subVIs/Generic/Update Card Position.vi"/>
 				<Item Name="Get Next Available Slot.vi" Type="VI" URL="../subVIs/Generic/Get Next Available Slot.vi"/>
+				<Item Name="Is slot valid.vi" Type="VI" URL="../subVIs/Generic/Is slot valid.vi"/>
 			</Item>
 			<Item Name="DIO" Type="Folder">
 				<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/DIO/Compile DIO.vi"/>
