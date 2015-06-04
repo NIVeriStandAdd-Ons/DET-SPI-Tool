@@ -550,6 +550,22 @@
 		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\UEGO card.vi</Path>
       </Item2Launch>
     </Page>
+		<Page>
+      <Name>
+        <eng>LED Backplane</eng>
+        <loc>LED Backplane</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>855718a2-01fd-4326-a70b-94b32735622c</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_LEDs.png</Path>
+	  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\LED card.vi</Path>
+      </Item2Launch>
+    </Page>
 	<Page>
       <Name>
         <eng>FIU line</eng>
@@ -628,6 +644,22 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Current Sense channel.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>LED channel</eng>
+        <loc>LED channel</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>3daa6cb5-932b-450d-8512-df794f896397</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_LED_Channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\LED line.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

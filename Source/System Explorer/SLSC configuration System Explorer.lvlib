@@ -26,6 +26,8 @@
 				<Item Name="Wheel Speed Sensor channel.vi" Type="VI" URL="../Pages/Wheel Speed Sensor channel.vi"/>
 				<Item Name="Resistor channel.vi" Type="VI" URL="../Pages/Resistor channel.vi"/>
 				<Item Name="UEGO card.vi" Type="VI" URL="../Pages/UEGO card.vi"/>
+				<Item Name="LED line.vi" Type="VI" URL="../Pages/LED line.vi"/>
+				<Item Name="LED card.vi" Type="VI" URL="../Pages/LED card.vi"/>
 				<Item Name="Battery Switch card.vi" Type="VI" URL="../Pages/Battery Switch card.vi"/>
 			</Item>
 			<Item Name="Menu Items" Type="Folder">
@@ -50,6 +52,8 @@
 			<Item Name="SLSC_DIO.png" Type="Document" URL="../Glyphs/SLSC_DIO.png"/>
 			<Item Name="SLSC_Disabled.png" Type="Document" URL="../Glyphs/SLSC_Disabled.png"/>
 			<Item Name="SLSC_FIU.png" Type="Document" URL="../Glyphs/SLSC_FIU.png"/>
+			<Item Name="SLSC_LED_Channel.png" Type="Document" URL="../Glyphs/SLSC_LED_Channel.png"/>
+			<Item Name="SLSC_LEDs.png" Type="Document" URL="../Glyphs/SLSC_LEDs.png"/>
 			<Item Name="SLSC_Oxygen_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Oxygen_Sensor.png"/>
 			<Item Name="SLSC_Resistor.png" Type="Document" URL="../Glyphs/SLSC_Resistor.png"/>
 			<Item Name="SLSC_Resistor_Channel.png" Type="Document" URL="../Glyphs/SLSC_Resistor_Channel.png"/>
@@ -124,6 +128,13 @@
 				<Item Name="Add Current Sense Card From Table.vi" Type="VI" URL="../subVIs/Current Sense/Add Current Sense Card From Table.vi"/>
 				<Item Name="Get Current Sense Calibration State.vi" Type="VI" URL="../subVIs/Current Sense/Get Current Sense Calibration State.vi"/>
 				<Item Name="Compile Current Sense.vi" Type="VI" URL="../subVIs/Current Sense/Compile Current Sense.vi"/>
+			</Item>
+			<Item Name="LEDs" Type="Folder">
+				<Item Name="Get LED States.vi" Type="VI" URL="../subVIs/LEDs/Get LED States.vi"/>
+				<Item Name="Init LED page.vi" Type="VI" URL="../subVIs/LEDs/Init LED page.vi"/>
+				<Item Name="Add LED Backplane.vi" Type="VI" URL="../subVIs/LEDs/Add LED Backplane.vi"/>
+				<Item Name="Build LEDs Section.vi" Type="VI" URL="../subVIs/LEDs/Build LEDs Section.vi"/>
+				<Item Name="Compile LEDs.vi" Type="VI" URL="../subVIs/LEDs/Compile LEDs.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">

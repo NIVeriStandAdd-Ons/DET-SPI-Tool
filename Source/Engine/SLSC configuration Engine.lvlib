@@ -23,6 +23,7 @@
 			<Item Name="Write Current Sense.vi" Type="VI" URL="../Run/Write Current Sense.vi"/>
 			<Item Name="Write DMA FIFO.vi" Type="VI" URL="../Run/Write DMA FIFO.vi"/>
 			<Item Name="Write FIU.vi" Type="VI" URL="../Run/Write FIU.vi"/>
+			<Item Name="Write LEDs.vi" Type="VI" URL="../Run/Write LEDs.vi"/>
 			<Item Name="Write Resistor.vi" Type="VI" URL="../Run/Write Resistor.vi"/>
 			<Item Name="Write Wheel Speed Sensor.vi" Type="VI" URL="../Run/Write Wheel Speed Sensor.vi"/>
 		</Item>

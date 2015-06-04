@@ -99,9 +99,14 @@
 				<Item Name="Current Sense State to Word.vi" Type="VI" URL="../Current Sense Board/Current Sense State to Word.vi"/>
 				<Item Name="Write Current Sense State.vi" Type="VI" URL="../Current Sense Board/Write Current Sense State.vi"/>
 			</Item>
+			<Item Name="LED Backplane" Type="Folder">
+				<Item Name="LED State.ctl" Type="VI" URL="../LED Backplane/LED State.ctl"/>
+				<Item Name="Configure LED Backplane.vi" Type="VI" URL="../LED Backplane/Configure LED Backplane.vi"/>
+				<Item Name="Bank LED States.ctl" Type="VI" URL="../LED Backplane/Bank LED States.ctl"/>
+				<Item Name="LED States to Word.vi" Type="VI" URL="../LED Backplane/LED States to Word.vi"/>
+				<Item Name="Write LED States.vi" Type="VI" URL="../LED Backplane/Write LED States.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="FIU channel values to SPI 16bit SPI data.vi" Type="VI" URL="../FIU channel values to SPI 16bit SPI data.vi"/>
 	</Item>
-	<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Type Defs/Res Sim compiled.ctl"/>
 </Library>
