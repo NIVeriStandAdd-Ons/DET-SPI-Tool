@@ -135,6 +135,7 @@
 				<Item Name="Add LED Backplane.vi" Type="VI" URL="../subVIs/LEDs/Add LED Backplane.vi"/>
 				<Item Name="Build LEDs Section.vi" Type="VI" URL="../subVIs/LEDs/Build LEDs Section.vi"/>
 				<Item Name="Compile LEDs.vi" Type="VI" URL="../subVIs/LEDs/Compile LEDs.vi"/>
+				<Item Name="Update LED Cards.vi" Type="VI" URL="../subVIs/LEDs/Update LED Cards.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
