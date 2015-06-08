@@ -27,6 +27,8 @@
 				<Item Name="Logic Threshold to Byte.vi" Type="VI" URL="../DIO Board/Logic Threshold to Byte.vi"/>
 				<Item Name="Write DIO Bank States.vi" Type="VI" URL="../DIO Board/Write DIO Bank States.vi"/>
 				<Item Name="DIO Line Config.ctl" Type="VI" URL="../DIO Board/DIO Line Config.ctl"/>
+				<Item Name="Compile DIO.vi" Type="VI" URL="../../System Explorer/subVIs/DIO/Compile DIO.vi"/>
+				<Item Name="Write DIO Threshold.vi" Type="VI" URL="../DIO Board/Write DIO Threshold.vi"/>
 			</Item>
 			<Item Name="MCP23S17" Type="Folder">
 				<Item Name="Change Pin.vi" Type="VI" URL="../MCP23S17/Change Pin.vi"/>
@@ -65,6 +67,9 @@
 				<Item Name="Build FIFO SPI Message.vi" Type="VI" URL="../SPI Utility/Build FIFO SPI Message.vi"/>
 				<Item Name="CS Bits.ctl" Type="VI" URL="../SPI Utility/CS Bits.ctl"/>
 				<Item Name="Slot #.ctl" Type="VI" URL="../SPI Utility/Slot #.ctl"/>
+				<Item Name="Reset Chips.vi" Type="VI" URL="../SPI Utility/Reset Chips.vi"/>
+				<Item Name="Reset Pins.vi" Type="VI" URL="../SPI Utility/Reset Pins.vi"/>
+				<Item Name="Reset Mode.vi" Type="VI" URL="../SPI Utility/Reset Mode.vi"/>
 			</Item>
 			<Item Name="FIU Board" Type="Folder">
 				<Item Name="Configure FIU Board.vi" Type="VI" URL="../FIU Board/Configure FIU Board.vi"/>
@@ -72,6 +77,7 @@
 				<Item Name="Fault States to Word.vi" Type="VI" URL="../FIU Board/Fault States to Word.vi"/>
 				<Item Name="Write FIU Bank States.vi" Type="VI" URL="../FIU Board/Write FIU Bank States.vi"/>
 				<Item Name="Bank Fault States.ctl" Type="VI" URL="../FIU Board/Bank Fault States.ctl"/>
+				<Item Name="Compile FIU.vi" Type="VI" URL="../../System Explorer/subVIs/FIU/Compile FIU.vi"/>
 			</Item>
 			<Item Name="Battery Switch Board" Type="Folder">
 				<Item Name="Battery Switch Array.ctl" Type="VI" URL="../Battery Switch Board/Battery Switch Array.ctl"/>
@@ -79,6 +85,7 @@
 				<Item Name="Write Battery Switch Bank States.vi" Type="VI" URL="../Battery Switch Board/Write Battery Switch Bank States.vi"/>
 				<Item Name="Battery Switch States to Word.vi" Type="VI" URL="../Battery Switch Board/Battery Switch States to Word.vi"/>
 				<Item Name="Configure Battery Switch Board.vi" Type="VI" URL="../Battery Switch Board/Configure Battery Switch Board.vi"/>
+				<Item Name="Compile Battery Switch.vi" Type="VI" URL="../../System Explorer/subVIs/Battery Switch/Compile Battery Switch.vi"/>
 			</Item>
 			<Item Name="Wheel Speed Sensor Board" Type="Folder">
 				<Item Name="WSS Mode.ctl" Type="VI" URL="../Wheel Speed Sensor Board/WSS Mode.ctl"/>
@@ -86,18 +93,21 @@
 				<Item Name="Write WSS Bank States.vi" Type="VI" URL="../Wheel Speed Sensor Board/Write WSS Bank States.vi"/>
 				<Item Name="WSS Modes to Word.vi" Type="VI" URL="../Wheel Speed Sensor Board/WSS Modes to Word.vi"/>
 				<Item Name="Configure WSS Board.vi" Type="VI" URL="../Wheel Speed Sensor Board/Configure WSS Board.vi"/>
+				<Item Name="Compile WSS.vi" Type="VI" URL="../../System Explorer/subVIs/Wheel Speed Sensor/Compile WSS.vi"/>
 			</Item>
 			<Item Name="Resistor Board" Type="Folder">
 				<Item Name="Resistance.ctl" Type="VI" URL="../Resistor Board/Resistance.ctl"/>
 				<Item Name="Configure Resistor Board.vi" Type="VI" URL="../Resistor Board/Configure Resistor Board.vi"/>
 				<Item Name="Write Resistor Bank States.vi" Type="VI" URL="../Resistor Board/Write Resistor Bank States.vi"/>
 				<Item Name="Resistance to Word.vi" Type="VI" URL="../Resistor Board/Resistance to Word.vi"/>
+				<Item Name="Compile Resistor.vi" Type="VI" URL="../../System Explorer/subVIs/Resistor/Compile Resistor.vi"/>
 			</Item>
 			<Item Name="Current Sense" Type="Folder">
 				<Item Name="Current Sense Calibration State.ctl" Type="VI" URL="../Current Sense Board/Current Sense Calibration State.ctl"/>
 				<Item Name="Configure Current Sense Board.vi" Type="VI" URL="../Current Sense Board/Configure Current Sense Board.vi"/>
 				<Item Name="Current Sense State to Word.vi" Type="VI" URL="../Current Sense Board/Current Sense State to Word.vi"/>
 				<Item Name="Write Current Sense State.vi" Type="VI" URL="../Current Sense Board/Write Current Sense State.vi"/>
+				<Item Name="Compile Current Sense.vi" Type="VI" URL="../../System Explorer/subVIs/Current Sense/Compile Current Sense.vi"/>
 			</Item>
 			<Item Name="LED Backplane" Type="Folder">
 				<Item Name="LED State.ctl" Type="VI" URL="../LED Backplane/LED State.ctl"/>
@@ -105,6 +115,7 @@
 				<Item Name="Bank LED States.ctl" Type="VI" URL="../LED Backplane/Bank LED States.ctl"/>
 				<Item Name="LED States to Word.vi" Type="VI" URL="../LED Backplane/LED States to Word.vi"/>
 				<Item Name="Write LED States.vi" Type="VI" URL="../LED Backplane/Write LED States.vi"/>
+				<Item Name="Compile LEDs.vi" Type="VI" URL="../../System Explorer/subVIs/LEDs/Compile LEDs.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>

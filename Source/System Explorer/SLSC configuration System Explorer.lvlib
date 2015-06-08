@@ -29,6 +29,7 @@
 				<Item Name="LED line.vi" Type="VI" URL="../Pages/LED line.vi"/>
 				<Item Name="LED card.vi" Type="VI" URL="../Pages/LED card.vi"/>
 				<Item Name="Battery Switch card.vi" Type="VI" URL="../Pages/Battery Switch card.vi"/>
+				<Item Name="DIO channel.vi" Type="VI" URL="../Pages/DIO channel.vi"/>
 			</Item>
 			<Item Name="Menu Items" Type="Folder">
 				<Item Name="Add Battery Switch card.vi" Type="VI" URL="../Runtime Menu Items/Add Battery Switch card.vi"/>
@@ -50,8 +51,10 @@
 			<Item Name="SLSC_Current_Sense.png" Type="Document" URL="../Glyphs/SLSC_Current_Sense.png"/>
 			<Item Name="SLSC_Current_Sense_Channel.png" Type="Document" URL="../Glyphs/SLSC_Current_Sense_Channel.png"/>
 			<Item Name="SLSC_DIO.png" Type="Document" URL="../Glyphs/SLSC_DIO.png"/>
+			<Item Name="SLSC_DIO_Channel.png" Type="Document" URL="../Glyphs/SLSC_DIO_Channel.png"/>
 			<Item Name="SLSC_Disabled.png" Type="Document" URL="../Glyphs/SLSC_Disabled.png"/>
 			<Item Name="SLSC_FIU.png" Type="Document" URL="../Glyphs/SLSC_FIU.png"/>
+			<Item Name="SLSC_FIU_Channel.png" Type="Document" URL="../Glyphs/SLSC_FIU_Channel.png"/>
 			<Item Name="SLSC_LED_Channel.png" Type="Document" URL="../Glyphs/SLSC_LED_Channel.png"/>
 			<Item Name="SLSC_LEDs.png" Type="Document" URL="../Glyphs/SLSC_LEDs.png"/>
 			<Item Name="SLSC_Oxygen_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Oxygen_Sensor.png"/>
@@ -73,21 +76,20 @@
 				<Item Name="Is slot valid.vi" Type="VI" URL="../subVIs/Generic/Is slot valid.vi"/>
 			</Item>
 			<Item Name="DIO" Type="Folder">
-				<Item Name="Compile DIO.vi" Type="VI" URL="../subVIs/DIO/Compile DIO.vi"/>
 				<Item Name="Add DIO Card From Table.vi" Type="VI" URL="../subVIs/DIO/Add DIO Card From Table.vi"/>
 				<Item Name="Init Name Description.vi" Type="VI" URL="../subVIs/Generic/Init Name Description.vi"/>
 				<Item Name="Build DIO Section.vi" Type="VI" URL="../subVIs/DIO/Build DIO Section.vi"/>
+				<Item Name="Get DIO Logic Thresholds.vi" Type="VI" URL="../subVIs/DIO/Get DIO Logic Thresholds.vi"/>
+				<Item Name="Init DIO page.vi" Type="VI" URL="../subVIs/DIO/Init DIO page.vi"/>
 			</Item>
 			<Item Name="FIU" Type="Folder">
 				<Item Name="Add FIU Card From Table.vi" Type="VI" URL="../subVIs/FIU/Add FIU Card From Table.vi"/>
-				<Item Name="Compile FIU.vi" Type="VI" URL="../subVIs/FIU/Compile FIU.vi"/>
 				<Item Name="Get Fault States.vi" Type="VI" URL="../subVIs/FIU/Get Fault States.vi"/>
 				<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/FIU/Init FIU page.vi"/>
 				<Item Name="Build FIU Section.vi" Type="VI" URL="../subVIs/FIU/Build FIU Section.vi"/>
 			</Item>
 			<Item Name="Battery Switch" Type="Folder">
 				<Item Name="Add Battery Switch Card From Table.vi" Type="VI" URL="../subVIs/Battery Switch/Add Battery Switch Card From Table.vi"/>
-				<Item Name="Compile Battery Switch.vi" Type="VI" URL="../subVIs/Battery Switch/Compile Battery Switch.vi"/>
 				<Item Name="Get Battery Switch States.vi" Type="VI" URL="../subVIs/Battery Switch/Get Battery Switch States.vi"/>
 				<Item Name="Build Battery Switch Section.vi" Type="VI" URL="../subVIs/Battery Switch/Build Battery Switch Section.vi"/>
 			</Item>
@@ -109,11 +111,9 @@
 				<Item Name="Get Resistances.vi" Type="VI" URL="../subVIs/Resistor/Get Resistances.vi"/>
 				<Item Name="Add Resistive Card From Table.vi" Type="VI" URL="../subVIs/Resistor/Add Resistive Card From Table.vi"/>
 				<Item Name="Build Resistor Section.vi" Type="VI" URL="../subVIs/Resistor/Build Resistor Section.vi"/>
-				<Item Name="Compile Resistor.vi" Type="VI" URL="../subVIs/Resistor/Compile Resistor.vi"/>
 			</Item>
 			<Item Name="Wheel Speed Sensor" Type="Folder">
 				<Item Name="Add Wheel Speed Sensor Card From Table.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Add Wheel Speed Sensor Card From Table.vi"/>
-				<Item Name="Compile WSS.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Compile WSS.vi"/>
 				<Item Name="Get WSS Modes.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Get WSS Modes.vi"/>
 				<Item Name="Build Wheel Speed Sensor Section.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Build Wheel Speed Sensor Section.vi"/>
 			</Item>
@@ -127,14 +127,12 @@
 				<Item Name="Build Current Sense Section.vi" Type="VI" URL="../subVIs/Current Sense/Build Current Sense Section.vi"/>
 				<Item Name="Add Current Sense Card From Table.vi" Type="VI" URL="../subVIs/Current Sense/Add Current Sense Card From Table.vi"/>
 				<Item Name="Get Current Sense Calibration State.vi" Type="VI" URL="../subVIs/Current Sense/Get Current Sense Calibration State.vi"/>
-				<Item Name="Compile Current Sense.vi" Type="VI" URL="../subVIs/Current Sense/Compile Current Sense.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="Get LED States.vi" Type="VI" URL="../subVIs/LEDs/Get LED States.vi"/>
 				<Item Name="Init LED page.vi" Type="VI" URL="../subVIs/LEDs/Init LED page.vi"/>
 				<Item Name="Add LED Backplane.vi" Type="VI" URL="../subVIs/LEDs/Add LED Backplane.vi"/>
 				<Item Name="Build LEDs Section.vi" Type="VI" URL="../subVIs/LEDs/Build LEDs Section.vi"/>
-				<Item Name="Compile LEDs.vi" Type="VI" URL="../subVIs/LEDs/Compile LEDs.vi"/>
 				<Item Name="Update LED Cards.vi" Type="VI" URL="../subVIs/LEDs/Update LED Cards.vi"/>
 			</Item>
 		</Item>

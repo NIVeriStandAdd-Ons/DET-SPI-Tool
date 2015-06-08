@@ -4,9 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Build SPI Command.vi" Type="VI" URL="../Build SPI Command.vi"/>
-	<Item Name="Initialize and Configure SLSC SPI.vi" Type="VI" URL="../Initialize and Configure SLSC SPI.vi"/>
 	<Item Name="SLSC # of racks.ctl" Type="VI" URL="../SLSC # of racks.ctl"/>
+	<Item Name="SLSC Build SPI Command.vi" Type="VI" URL="../SLSC Build SPI Command.vi"/>
 	<Item Name="SLSC Calibrate UEGO.vi" Type="VI" URL="../SLSC Calibrate UEGO.vi"/>
 	<Item Name="SLSC Calibration Complete.ctl" Type="VI" URL="../SLSC Calibration Complete.ctl"/>
 	<Item Name="SLSC Command Loop Timer.vi" Type="VI" URL="../SLSC Command Loop Timer.vi"/>
@@ -14,10 +13,15 @@
 	<Item Name="SLSC FPGA Inputs.ctl" Type="VI" URL="../SLSC FPGA Inputs.ctl"/>
 	<Item Name="SLSC FPGA Outputs.ctl" Type="VI" URL="../SLSC FPGA Outputs.ctl"/>
 	<Item Name="SLSC Go.ctl" Type="VI" URL="../SLSC Go.ctl"/>
+	<Item Name="SLSC Initialize and Configure SPI.vi" Type="VI" URL="../SLSC Initialize and Configure SPI.vi"/>
+	<Item Name="SLSC Initialize CS Bit Value Register.vi" Type="VI" URL="../SLSC Initialize CS Bit Value Register.vi"/>
+	<Item Name="SLSC Initialize UEGO Calibration Register.vi" Type="VI" URL="../SLSC Initialize UEGO Calibration Register.vi"/>
 	<Item Name="SLSC Queue Command.vi" Type="VI" URL="../SLSC Queue Command.vi"/>
 	<Item Name="SLSC SPI Command.ctl" Type="VI" URL="../SLSC SPI Command.ctl"/>
 	<Item Name="SLSC SPI Digital IO Lines.ctl" Type="VI" URL="../SLSC SPI Digital IO Lines.ctl"/>
+	<Item Name="SLSC SPI Engine with CS.vi" Type="VI" URL="../SLSC SPI Engine with CS.vi"/>
 	<Item Name="SLSC SPI Engine.vi" Type="VI" URL="../SLSC SPI Engine.vi"/>
+	<Item Name="SLSC UEGO Calibration States.ctl" Type="VI" URL="../SLSC UEGO Calibration States.ctl"/>
 	<Item Name="SLSC UEGO Calibration.ctl" Type="VI" URL="../SLSC UEGO Calibration.ctl"/>
 	<Item Name="SLSC Unpack FIFO Command.vi" Type="VI" URL="../SLSC Unpack FIFO Command.vi"/>
 	<Item Name="SLSC version.ctl" Type="VI" URL="../SLSC version.ctl"/>

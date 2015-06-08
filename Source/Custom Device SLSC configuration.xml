@@ -575,7 +575,7 @@
       <GUID>419d9b57-9547-4c03-8a6e-b71d44e1efd6</GUID>
       <Glyph>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\SLSC configuration\Data\SLSC_FIU.png</Path>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_FIU_Channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -660,6 +660,22 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\LED line.vi</Path>
+      </Item2Launch>
+    </Page>
+		<Page>
+      <Name>
+        <eng>DIO channel</eng>
+        <loc>DIO channel</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>68b1edbf-44ca-4db8-a110-9c4878466134</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\SLSC configuration\Data\SLSC_DIO_Channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\DIO channel.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
