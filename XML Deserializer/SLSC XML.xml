@@ -1,0 +1,509 @@
+<SLSC>
+	<FPGAConfiguration>
+		<RIODeviceAddress>RIO0</RIODeviceAddress>
+		<Path>C:\Files\Projects\NATRIP\NATRIP-Generic-HIL\NATRIP Demo\NATRIP Engine Simulation VeriStand Project\FPGA Bitfiles\NATRIP SPI on 9151 FPGA.lvbitx</Path>
+		<FPGALoadDelay>1</FPGALoadDelay>
+	</FPGAConfiguration>
+	<SPIConfiguration>
+		<SPIDivideValue>255</SPIDivideValue>
+		<SampleRate>40000000</SampleRate>
+	</SPIConfiguration>
+	<Modules>
+		<Module>
+			<Name>BATT</Name>
+			<Type>BatterySwitch</Type>
+			<Rack>1</Rack>
+			<Slot>10</Slot>
+			<Channels>
+				<Channel>
+					<Name>Battery Switch 1</Name>
+					<SwitchNumber>1</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Battery Switch 2</Name>
+					<SwitchNumber>2</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Battery Switch 3</Name>
+					<SwitchNumber>3</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>BATT  2</Name>
+			<Type>BatterySwitch</Type>
+			<Rack>1</Rack>
+			<Slot>11</Slot>
+			<Channels>
+				<Channel>
+					<Name>Battery Switch 1</Name>
+					<SwitchNumber>1</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Battery Switch 2</Name>
+					<SwitchNumber>2</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Battery Switch 3</Name>
+					<SwitchNumber>3</SwitchNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>DIO #1</Name>
+			<Type>DIO</Type>
+			<Rack>1</Rack>
+			<Slot>3</Slot>
+			<DIOLineConfig0>255</DIOLineConfig0>
+			<DIOLineConfig1>255</DIOLineConfig1>
+			<DIOLineConfig2>255</DIOLineConfig2>
+			<DIOLineConfig3>255</DIOLineConfig3>
+			<Channels>
+				<Channel>
+					<Name>Logic Threshold 1</Name>
+					<ThresholdNumber>1</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 2</Name>
+					<ThresholdNumber>2</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 3</Name>
+					<ThresholdNumber>3</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 4</Name>
+					<ThresholdNumber>4</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>DIO #2</Name>
+			<Type>DIO</Type>
+			<Rack>1</Rack>
+			<Slot>4</Slot>
+			<DIOLineConfig0>255</DIOLineConfig0>
+			<DIOLineConfig1>255</DIOLineConfig1>
+			<DIOLineConfig2>255</DIOLineConfig2>
+			<DIOLineConfig3>255</DIOLineConfig3>
+			<Channels>
+				<Channel>
+					<Name>Logic Threshold 1</Name>
+					<ThresholdNumber>1</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 2</Name>
+					<ThresholdNumber>2</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 3</Name>
+					<ThresholdNumber>3</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Logic Threshold 4</Name>
+					<ThresholdNumber>4</ThresholdNumber>
+					<DefaultValue>50</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>FIU LV</Name>
+			<Type>FIU</Type>
+			<Rack>2</Rack>
+			<Slot>1</Slot>
+			<Channels>
+				<Channel>
+					<Name>Fault 1</Name>
+					<FaultNumber>1</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 2</Name>
+					<FaultNumber>2</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 3</Name>
+					<FaultNumber>3</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 4</Name>
+					<FaultNumber>4</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 5</Name>
+					<FaultNumber>5</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 6</Name>
+					<FaultNumber>6</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 7</Name>
+					<FaultNumber>7</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 8</Name>
+					<FaultNumber>8</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>FIU HV</Name>
+			<Type>FIU</Type>
+			<Rack>2</Rack>
+			<Slot>2</Slot>
+			<Channels>
+				<Channel>
+					<Name>Fault 1</Name>
+					<FaultNumber>1</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 2</Name>
+					<FaultNumber>2</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 3</Name>
+					<FaultNumber>3</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 4</Name>
+					<FaultNumber>4</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 5</Name>
+					<FaultNumber>5</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 6</Name>
+					<FaultNumber>6</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 7</Name>
+					<FaultNumber>7</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Fault 8</Name>
+					<FaultNumber>8</FaultNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>LEDs #0</Name>
+			<Type>LEDs</Type>
+			<Rack>0</Rack>
+			<Slot>1</Slot>
+			<Channels>
+				<Channel>
+					<Name>LED 1</Name>
+					<LEDNumber>1</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 2</Name>
+					<LEDNumber>2</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 3</Name>
+					<LEDNumber>3</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 4</Name>
+					<LEDNumber>4</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 5</Name>
+					<LEDNumber>5</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 6</Name>
+					<LEDNumber>6</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 7</Name>
+					<LEDNumber>7</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 8</Name>
+					<LEDNumber>8</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>LEDs #1</Name>
+			<Type>LEDs</Type>
+			<Rack>1</Rack>
+			<Slot>1</Slot>
+			<Channels>
+				<Channel>
+					<Name>LED 1</Name>
+					<LEDNumber>1</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 2</Name>
+					<LEDNumber>2</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 3</Name>
+					<LEDNumber>3</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 4</Name>
+					<LEDNumber>4</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 5</Name>
+					<LEDNumber>5</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 6</Name>
+					<LEDNumber>6</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 7</Name>
+					<LEDNumber>7</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>LED 8</Name>
+					<LEDNumber>8</LEDNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>UEGO</Name>
+			<Type>UEGO</Type>
+			<Rack>0</Rack>
+			<Slot>5</Slot>
+			<HardwareSettlingTime>250</HardwareSettlingTime>
+			<CalibrationTime>1000</CalibrationTime>
+			<FPGAItemName>UEGOcalibration.UEGO 1<FPGAItemName>
+		</Module>
+		<Module>
+			<Name>UEGO 2</Name>
+			<Type>UEGO</Type>
+			<Rack>0</Rack>
+			<Slot>6</Slot>
+			<HardwareSettlingTime>250</HardwareSettlingTime>
+			<CalibrationTime>1000</CalibrationTime>
+			<FPGAItemName>UEGOcalibration.UEGO 2<FPGAItemName>
+		</Module>
+		<Module>
+			<Name>Current Sense</Name>
+			<Type>CurrentSense</Type>
+			<Rack>1</Rack>
+			<Slot>14</Slot>
+			<Channels>
+				<Channel>
+					<Name>Calibration State</Name>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>Current Sense 2</Name>
+			<Type>CurrentSense</Type>
+			<Rack>1</Rack>
+			<Slot>15</Slot>
+			<Channels>
+				<Channel>
+					<Name>Calibration State</Name>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>WSS</Name>
+			<Type>WheelSpeed</Type>
+			<Rack>0</Rack>
+			<Slot>3</Slot>
+			<Channels>
+				<Channel>
+					<Name>Channel 1</Name>
+					<ChannelNumber>1</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 2</Name>
+					<ChannelNumber>2</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 3</Name>
+					<ChannelNumber>3</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 4</Name>
+					<ChannelNumber>4</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>WSS 2</Name>
+			<Type>WheelSpeed</Type>
+			<Rack>1</Rack>
+			<Slot>5</Slot>
+			<Channels>
+				<Channel>
+					<Name>Channel 1</Name>
+					<ChannelNumber>1</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 2</Name>
+					<ChannelNumber>2</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 3</Name>
+					<ChannelNumber>3</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Channel 4</Name>
+					<ChannelNumber>4</ChannelNumber>
+					<DefaultValue>0</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>Resistor</Name>
+			<Type>Resistor</Type>
+			<Rack>0</Rack>
+			<Slot>2</Slot>
+			<Channels>
+				<Channel>
+					<Name>Resistance 1</Name>
+					<ResistanceNumber>1</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 2</Name>
+					<ResistanceNumber>2</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 3</Name>
+					<ResistanceNumber>3</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 4</Name>
+					<ResistanceNumber>4</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 5</Name>
+					<ResistanceNumber>5</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 6</Name>
+					<ResistanceNumber>6</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 7</Name>
+					<ResistanceNumber>7</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 8</Name>
+					<ResistanceNumber>8</ResistanceNumber>
+					<DefaultValue>8193.875</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+		<Module>
+			<Name>Resistor 2</Name>
+			<Type>Resistor</Type>
+			<Rack>0</Rack>
+			<Slot>9</Slot>
+			<Channels>
+				<Channel>
+					<Name>Resistance 1</Name>
+					<ResistanceNumber>1</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 2</Name>
+					<ResistanceNumber>2</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 3</Name>
+					<ResistanceNumber>3</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 4</Name>
+					<ResistanceNumber>4</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 5</Name>
+					<ResistanceNumber>5</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 6</Name>
+					<ResistanceNumber>6</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 7</Name>
+					<ResistanceNumber>7</ResistanceNumber>
+					<DefaultValue>2</DefaultValue>
+				</Channel>
+				<Channel>
+					<Name>Resistance 8</Name>
+					<ResistanceNumber>8</ResistanceNumber>
+					<DefaultValue>8193.875</DefaultValue>
+				</Channel>
+			</Channels>
+		</Module>
+	</Modules>
+</SLSC>

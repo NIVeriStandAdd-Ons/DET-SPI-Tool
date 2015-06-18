@@ -40,6 +40,8 @@
 				<Item Name="Add UEGO card.vi" Type="VI" URL="../Runtime Menu Items/Add UEGO card.vi"/>
 				<Item Name="Add Wheel Speed Sensor card.vi" Type="VI" URL="../Runtime Menu Items/Add Wheel Speed Sensor card.vi"/>
 				<Item Name="Enable Disable SLSC.vi" Type="VI" URL="../Runtime Menu Items/Enable Disable SLSC.vi"/>
+				<Item Name="Export Configuration.vi" Type="VI" URL="../Runtime Menu Items/Export Configuration.vi"/>
+				<Item Name="Import Configuration.vi" Type="VI" URL="../Runtime Menu Items/Import Configuration.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
@@ -77,14 +79,17 @@
 			</Item>
 			<Item Name="DIO" Type="Folder">
 				<Item Name="Add DIO Card From Table.vi" Type="VI" URL="../subVIs/DIO/Add DIO Card From Table.vi"/>
+				<Item Name="Build DIO Section from XML.vi" Type="VI" URL="../subVIs/DIO/Build DIO Section from XML.vi"/>
 				<Item Name="Init Name Description.vi" Type="VI" URL="../subVIs/Generic/Init Name Description.vi"/>
 				<Item Name="Build DIO Section.vi" Type="VI" URL="../subVIs/DIO/Build DIO Section.vi"/>
 				<Item Name="Get DIO Logic Thresholds.vi" Type="VI" URL="../subVIs/DIO/Get DIO Logic Thresholds.vi"/>
 				<Item Name="Init DIO page.vi" Type="VI" URL="../subVIs/DIO/Init DIO page.vi"/>
+				<Item Name="Set Configuration Option.vi" Type="VI" URL="../subVIs/DIO/Set Configuration Option.vi"/>
 			</Item>
 			<Item Name="FIU" Type="Folder">
 				<Item Name="Add FIU Card From Table.vi" Type="VI" URL="../subVIs/FIU/Add FIU Card From Table.vi"/>
 				<Item Name="Get Fault States.vi" Type="VI" URL="../subVIs/FIU/Get Fault States.vi"/>
+				<Item Name="Build FIU Section from XML.vi" Type="VI" URL="../subVIs/FIU/Build FIU Section from XML.vi"/>
 				<Item Name="Init FIU page.vi" Type="VI" URL="../subVIs/FIU/Init FIU page.vi"/>
 				<Item Name="Build FIU Section.vi" Type="VI" URL="../subVIs/FIU/Build FIU Section.vi"/>
 			</Item>
@@ -92,8 +97,11 @@
 				<Item Name="Add Battery Switch Card From Table.vi" Type="VI" URL="../subVIs/Battery Switch/Add Battery Switch Card From Table.vi"/>
 				<Item Name="Get Battery Switch States.vi" Type="VI" URL="../subVIs/Battery Switch/Get Battery Switch States.vi"/>
 				<Item Name="Build Battery Switch Section.vi" Type="VI" URL="../subVIs/Battery Switch/Build Battery Switch Section.vi"/>
+				<Item Name="Build Battery Switch Section from XML.vi" Type="VI" URL="../subVIs/Battery Switch/Build Battery Switch Section from XML.vi"/>
 			</Item>
 			<Item Name="Main" Type="Folder">
+				<Item Name="Build FPGA Configuration.vi" Type="VI" URL="../subVIs/Main/Build FPGA Configuration.vi"/>
+				<Item Name="Build SPI Configuration.vi" Type="VI" URL="../subVIs/Main/Build SPI Configuration.vi"/>
 				<Item Name="Compile Device Settings.vi" Type="VI" URL="../subVIs/Main/Compile Device Settings.vi"/>
 				<Item Name="Compute Clock Frequency.vi" Type="VI" URL="../subVIs/Main/Compute Clock Frequency.vi"/>
 				<Item Name="Double-Click Action.vi" Type="VI" URL="../subVIs/Main/Double-Click Action.vi"/>
@@ -106,14 +114,30 @@
 				<Item Name="Load Bitfile Settings.vi" Type="VI" URL="../subVIs/Main/Load Bitfile Settings.vi"/>
 				<Item Name="Create Dependent Bitfile.vi" Type="VI" URL="../subVIs/Main/Create Dependent Bitfile.vi"/>
 				<Item Name="Save Bitfile Settings.vi" Type="VI" URL="../subVIs/Main/Save Bitfile Settings.vi"/>
+				<Item Name="Get Bitfile Path.vi" Type="VI" URL="../subVIs/Main/Properties/Get Bitfile Path.vi"/>
+				<Item Name="Get FPGA Load Delay.vi" Type="VI" URL="../subVIs/Main/Properties/Get FPGA Load Delay.vi"/>
+				<Item Name="Set RIO Device Address.vi" Type="VI" URL="../subVIs/Main/Properties/Set RIO Device Address.vi"/>
+				<Item Name="Set FPGA Load Delay.vi" Type="VI" URL="../subVIs/Main/Properties/Set FPGA Load Delay.vi"/>
+				<Item Name="Get RIO Device Address.vi" Type="VI" URL="../subVIs/Main/Properties/Get RIO Device Address.vi"/>
+				<Item Name="Get SPI Divide Value.vi" Type="VI" URL="../subVIs/Main/Properties/Get SPI Divide Value.vi"/>
+				<Item Name="Set SPI Divide Value.vi" Type="VI" URL="../subVIs/Main/Properties/Set SPI Divide Value.vi"/>
+				<Item Name="Add Modules.vi" Type="VI" URL="../subVIs/Main/Add Modules.vi"/>
+				<Item Name="Add SPI Configuration.vi" Type="VI" URL="../subVIs/Main/Add SPI Configuration.vi"/>
+				<Item Name="Set SPI Sample Rate.vi" Type="VI" URL="../subVIs/Main/Properties/Set SPI Sample Rate.vi"/>
+				<Item Name="Get SPI Sample Rate.vi" Type="VI" URL="../subVIs/Main/Properties/Get SPI Sample Rate.vi"/>
+				<Item Name="Add FPGA Configuration.vi" Type="VI" URL="../subVIs/Main/Add FPGA Configuration.vi"/>
+				<Item Name="Update OK State.vi" Type="VI" URL="../subVIs/Main/Update OK State.vi"/>
+				<Item Name="Build Modules.vi" Type="VI" URL="../subVIs/Main/Build Modules.vi"/>
 			</Item>
 			<Item Name="Resistor" Type="Folder">
 				<Item Name="Get Resistances.vi" Type="VI" URL="../subVIs/Resistor/Get Resistances.vi"/>
 				<Item Name="Add Resistive Card From Table.vi" Type="VI" URL="../subVIs/Resistor/Add Resistive Card From Table.vi"/>
 				<Item Name="Build Resistor Section.vi" Type="VI" URL="../subVIs/Resistor/Build Resistor Section.vi"/>
+				<Item Name="Build Resistor Section from XML.vi" Type="VI" URL="../subVIs/Resistor/Build Resistor Section from XML.vi"/>
 			</Item>
 			<Item Name="Wheel Speed Sensor" Type="Folder">
 				<Item Name="Add Wheel Speed Sensor Card From Table.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Add Wheel Speed Sensor Card From Table.vi"/>
+				<Item Name="Build Wheel Speed Sensor Section from XML.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Build Wheel Speed Sensor Section from XML.vi"/>
 				<Item Name="Get WSS Modes.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Get WSS Modes.vi"/>
 				<Item Name="Build Wheel Speed Sensor Section.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Build Wheel Speed Sensor Section.vi"/>
 			</Item>
@@ -122,11 +146,13 @@
 				<Item Name="Build UEGO Section.vi" Type="VI" URL="../subVIs/UEGO/Build UEGO Section.vi"/>
 				<Item Name="Update UEGO Cards.vi" Type="VI" URL="../subVIs/UEGO/Update UEGO Cards.vi"/>
 				<Item Name="Compile UEGO.vi" Type="VI" URL="../subVIs/UEGO/Compile UEGO.vi"/>
+				<Item Name="Build UEGO Section from XML.vi" Type="VI" URL="../subVIs/UEGO/Build UEGO Section from XML.vi"/>
 			</Item>
 			<Item Name="Current Sense" Type="Folder">
 				<Item Name="Build Current Sense Section.vi" Type="VI" URL="../subVIs/Current Sense/Build Current Sense Section.vi"/>
 				<Item Name="Add Current Sense Card From Table.vi" Type="VI" URL="../subVIs/Current Sense/Add Current Sense Card From Table.vi"/>
 				<Item Name="Get Current Sense Calibration State.vi" Type="VI" URL="../subVIs/Current Sense/Get Current Sense Calibration State.vi"/>
+				<Item Name="Build Current Sense Section from XML.vi" Type="VI" URL="../subVIs/Current Sense/Build Current Sense Section from XML.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="Get LED States.vi" Type="VI" URL="../subVIs/LEDs/Get LED States.vi"/>
@@ -134,6 +160,7 @@
 				<Item Name="Add LED Backplane.vi" Type="VI" URL="../subVIs/LEDs/Add LED Backplane.vi"/>
 				<Item Name="Build LEDs Section.vi" Type="VI" URL="../subVIs/LEDs/Build LEDs Section.vi"/>
 				<Item Name="Update LED Cards.vi" Type="VI" URL="../subVIs/LEDs/Update LED Cards.vi"/>
+				<Item Name="Build LEDs Section from XML.vi" Type="VI" URL="../subVIs/LEDs/Build LEDs Section from XML.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">

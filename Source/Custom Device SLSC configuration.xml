@@ -182,6 +182,42 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>653bc85b-acea-48d9-9b16-17d9f01af040</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Import Configuration.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d6e20e96-d11a-4122-b2fe-116131161f4a</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Export</eng>
+						<loc>Export</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Export Configuration.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>3e0059fb-c03c-4d54-9e7f-14e971c8a38f</GUID>
 					<Type>Action</Type>
 					<Name>
@@ -194,6 +230,58 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+		<ButtonList>
+			<Button>
+				<ID>Import</ID>
+				<Glyph>
+					<Type>To Application Data Dir</Type>
+					<Path>System Explorer\Glyphs\import.png</Path>
+				</Glyph>
+				<Type>Dialog</Type>
+				<ReferencedGUID>653bc85b-acea-48d9-9b16-17d9f01af040</ReferencedGUID>
+				<ButtonText>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</ButtonText>
+				<Caption>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</Caption>
+				<TipStrip>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</TipStrip>
+				<Documentation>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</Documentation>
+			</Button>
+			<Button>
+				<ID>Export</ID>
+				<Glyph>
+					<Type>To Application Data Dir</Type>
+					<Path>System Explorer\Glyphs\export.png</Path>
+				</Glyph>
+				<Type>Dialog</Type>
+				<ReferencedGUID>d6e20e96-d11a-4122-b2fe-116131161f4a</ReferencedGUID>
+				<ButtonText>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</ButtonText>
+				<Caption>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</Caption>
+				<TipStrip>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</TipStrip>
+				<Documentation>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</Documentation>
+			</Button>
+		</ButtonList>
 		<ActionVIOnLoad>
 			<Type>To Common Doc Dir</Type>
 			<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main ActionVIOnLoad.vi</Path>
@@ -339,6 +427,42 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>653bc85b-acea-48d9-9b16-17d9f01af040</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Import Configuration.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d6e20e96-d11a-4122-b2fe-116131161f4a</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Export</eng>
+						<loc>Export</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Export Configuration.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b4a0a91d-5bb2-4dd1-a1f2-80495a41f399</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>3e0059fb-c03c-4d54-9e7f-14e971c8a38f</GUID>
 					<Type>Action</Type>
 					<Name>
@@ -351,6 +475,58 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+		<ButtonList>
+			<Button>
+				<ID>Import</ID>
+				<Glyph>
+					<Type>To Application Data Dir</Type>
+					<Path>System Explorer\Glyphs\import.png</Path>
+				</Glyph>
+				<Type>Dialog</Type>
+				<ReferencedGUID>653bc85b-acea-48d9-9b16-17d9f01af040</ReferencedGUID>
+				<ButtonText>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</ButtonText>
+				<Caption>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</Caption>
+				<TipStrip>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</TipStrip>
+				<Documentation>
+					<eng>Import</eng>
+					<loc>Import</loc>
+				</Documentation>
+			</Button>
+			<Button>
+				<ID>Export</ID>
+				<Glyph>
+					<Type>To Application Data Dir</Type>
+					<Path>System Explorer\Glyphs\export.png</Path>
+				</Glyph>
+				<Type>Dialog</Type>
+				<ReferencedGUID>d6e20e96-d11a-4122-b2fe-116131161f4a</ReferencedGUID>
+				<ButtonText>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</ButtonText>
+				<Caption>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</Caption>
+				<TipStrip>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</TipStrip>
+				<Documentation>
+					<eng>Export</eng>
+					<loc>Export</loc>
+				</Documentation>
+			</Button>
+		</ButtonList>
 		<ActionVIOnLoad>
 			<Type>To Common Doc Dir</Type>
 			<Path>Custom Devices\SLSC configuration\SLSC configuration Configuration.llb\Main ActionVIOnLoad.vi</Path>

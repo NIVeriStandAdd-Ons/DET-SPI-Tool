@@ -1,0 +1,9 @@
+C:\Users\lsarcion\Desktop\SLSC Deserializer\SLSC Deserializer\bin\Debug\SLSC Deserializer.dll
+C:\Users\lsarcion\Desktop\SLSC Deserializer\SLSC Deserializer\bin\Debug\SLSC Deserializer.pdb
+C:\Users\lsarcion\Desktop\SLSC Deserializer\SLSC Deserializer\obj\Debug\SLSC Deserializer.dll
+C:\Users\lsarcion\Desktop\SLSC Deserializer\SLSC Deserializer\obj\Debug\SLSC Deserializer.pdb
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\bin\Debug\SLSC Deserializer.dll
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\bin\Debug\SLSC Deserializer.pdb
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Debug\SLSC Deserializer.dll
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Debug\SLSC Deserializer.pdb
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Debug\SLSC Deserializer.csprojResolveAssemblyReference.cache

@@ -110,6 +110,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
+			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -458,6 +461,10 @@
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
 			<Item Name="SLSC configuration System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC configuration System Explorer.lvlib"/>
+			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../System Explorer/Runtime Menu Items/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -741,6 +748,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
 			<Item Name="SLSC configuration System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC configuration System Explorer.lvlib"/>
+			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../System Explorer/Runtime Menu Items/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
