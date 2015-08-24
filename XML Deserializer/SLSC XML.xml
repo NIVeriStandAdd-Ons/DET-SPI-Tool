@@ -316,18 +316,54 @@
 			<Type>UEGO</Type>
 			<Rack>0</Rack>
 			<Slot>5</Slot>
-			<HardwareSettlingTime>250</HardwareSettlingTime>
-			<CalibrationTime>1000</CalibrationTime>
-			<FPGAItemName>UEGOcalibration.UEGO 1<FPGAItemName>
+			<HardwareSettlingTime>1</HardwareSettlingTime>
+			<Channel>
+				<Name>Calibration 1</Name>
+				<ChannelNumber>1</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 2</Name>
+				<ChannelNumber>2</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 3</Name>
+				<ChannelNumber>3</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 4</Name>
+				<ChannelNumber>4</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
 		</Module>
 		<Module>
 			<Name>UEGO 2</Name>
 			<Type>UEGO</Type>
 			<Rack>0</Rack>
 			<Slot>6</Slot>
-			<HardwareSettlingTime>250</HardwareSettlingTime>
-			<CalibrationTime>1000</CalibrationTime>
-			<FPGAItemName>UEGOcalibration.UEGO 2<FPGAItemName>
+			<HardwareSettlingTime>1</HardwareSettlingTime>
+			<Channel>
+				<Name>Calibration 1</Name>
+				<ChannelNumber>1</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 2</Name>
+				<ChannelNumber>2</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 3</Name>
+				<ChannelNumber>3</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
+			<Channel>
+				<Name>Calibration 4</Name>
+				<ChannelNumber>4</ChannelNumber>
+				<DefaultValue>0</DefaultValue>
+			</Channel>
 		</Module>
 		<Module>
 			<Name>Current Sense</Name>
