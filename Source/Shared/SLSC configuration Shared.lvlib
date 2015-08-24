@@ -117,6 +117,13 @@
 				<Item Name="Write LED States.vi" Type="VI" URL="../LED Backplane/Write LED States.vi"/>
 				<Item Name="Compile LEDs.vi" Type="VI" URL="../../System Explorer/subVIs/LEDs/Compile LEDs.vi"/>
 			</Item>
+			<Item Name="UEGO" Type="Folder">
+				<Item Name="Calibration State.ctl" Type="VI" URL="../UEGO Board/Calibration State.ctl"/>
+				<Item Name="Bank Calibration States.ctl" Type="VI" URL="../UEGO Board/Bank Calibration States.ctl"/>
+				<Item Name="Configure UEGO Board.vi" Type="VI" URL="../UEGO Board/Configure UEGO Board.vi"/>
+				<Item Name="UEGO Calibration States to Word.vi" Type="VI" URL="../UEGO Board/UEGO Calibration States to Word.vi"/>
+				<Item Name="Write UEGO Calibration States.vi" Type="VI" URL="../UEGO Board/Write UEGO Calibration States.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>

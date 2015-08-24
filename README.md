@@ -1,10 +1,10 @@
 ## IP Name ##
 
-**DET SPI Tool** is a insert description of IP.
+**DET SPI Tool** is provides the ability to configure SLSC chassis.
 
 ### LabVIEW Version ###
 
-LabVIEW 2013 SP1
+LabVIEW 2014 SP1
 
 ### Built Availability ###
 
@@ -20,6 +20,8 @@ In progress
 VS Inline Async CD API  
 LabVIEW FPGA 2014
 NI SPI IP 1.2.1.2 (ftp://ftp.ni.com/evaluation/labview/lvtn/vipm/packages/national_instruments_lib_ni_spi_ip/)
+LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
+SPI API 1.0.1.19 (Contact Kalyanramu Vemishetty)
 
 ### License ###
 

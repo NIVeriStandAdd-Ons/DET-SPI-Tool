@@ -29,6 +29,7 @@
 				<Item Name="LED line.vi" Type="VI" URL="../Pages/LED line.vi"/>
 				<Item Name="LED card.vi" Type="VI" URL="../Pages/LED card.vi"/>
 				<Item Name="Battery Switch card.vi" Type="VI" URL="../Pages/Battery Switch card.vi"/>
+				<Item Name="UEGO channel.vi" Type="VI" URL="../Pages/UEGO channel.vi"/>
 				<Item Name="DIO channel.vi" Type="VI" URL="../Pages/DIO channel.vi"/>
 			</Item>
 			<Item Name="Menu Items" Type="Folder">
@@ -60,6 +61,7 @@
 			<Item Name="SLSC_LED_Channel.png" Type="Document" URL="../Glyphs/SLSC_LED_Channel.png"/>
 			<Item Name="SLSC_LEDs.png" Type="Document" URL="../Glyphs/SLSC_LEDs.png"/>
 			<Item Name="SLSC_Oxygen_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Oxygen_Sensor.png"/>
+			<Item Name="SLSC_Oxygen_Sensor_Channel.png" Type="Document" URL="../Glyphs/SLSC_Oxygen_Sensor_Channel.png"/>
 			<Item Name="SLSC_Resistor.png" Type="Document" URL="../Glyphs/SLSC_Resistor.png"/>
 			<Item Name="SLSC_Resistor_Channel.png" Type="Document" URL="../Glyphs/SLSC_Resistor_Channel.png"/>
 			<Item Name="SLSC_Wheel_Speed_Sensor.png" Type="Document" URL="../Glyphs/SLSC_Wheel_Speed_Sensor.png"/>
@@ -142,11 +144,11 @@
 				<Item Name="Build Wheel Speed Sensor Section.vi" Type="VI" URL="../subVIs/Wheel Speed Sensor/Build Wheel Speed Sensor Section.vi"/>
 			</Item>
 			<Item Name="UEGO" Type="Folder">
+				<Item Name="Compile UEGO Channels.vi" Type="VI" URL="../subVIs/UEGO/Compile UEGO Channels.vi"/>
 				<Item Name="Add UEGO Card From Table.vi" Type="VI" URL="../subVIs/UEGO/Add UEGO Card From Table.vi"/>
 				<Item Name="Build UEGO Section.vi" Type="VI" URL="../subVIs/UEGO/Build UEGO Section.vi"/>
-				<Item Name="Update UEGO Cards.vi" Type="VI" URL="../subVIs/UEGO/Update UEGO Cards.vi"/>
-				<Item Name="Compile UEGO.vi" Type="VI" URL="../subVIs/UEGO/Compile UEGO.vi"/>
 				<Item Name="Build UEGO Section from XML.vi" Type="VI" URL="../subVIs/UEGO/Build UEGO Section from XML.vi"/>
+				<Item Name="Get Calibration States.vi" Type="VI" URL="../subVIs/UEGO/Get Calibration States.vi"/>
 			</Item>
 			<Item Name="Current Sense" Type="Folder">
 				<Item Name="Build Current Sense Section.vi" Type="VI" URL="../subVIs/Current Sense/Build Current Sense Section.vi"/>

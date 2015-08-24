@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Update Resistive Sim.vi" Type="VI" URL="../Run/Update Resistive Sim.vi"/>
+			<Item Name="Wait for UEGO HW Settling.vi" Type="VI" URL="../SubVIs/Wait for UEGO HW Settling.vi"/>
 			<Item Name="Write Battery Switch.vi" Type="VI" URL="../Run/Write Battery Switch.vi"/>
 			<Item Name="Write Current Sense.vi" Type="VI" URL="../Run/Write Current Sense.vi"/>
 			<Item Name="Write DIO.vi" Type="VI" URL="../Run/Write DIO.vi"/>
@@ -26,6 +27,7 @@
 			<Item Name="Write FIU.vi" Type="VI" URL="../Run/Write FIU.vi"/>
 			<Item Name="Write LEDs.vi" Type="VI" URL="../Run/Write LEDs.vi"/>
 			<Item Name="Write Resistor.vi" Type="VI" URL="../Run/Write Resistor.vi"/>
+			<Item Name="Write UEGO.vi" Type="VI" URL="../Run/Write UEGO.vi"/>
 			<Item Name="Write Wheel Speed Sensor.vi" Type="VI" URL="../Run/Write Wheel Speed Sensor.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
@@ -33,6 +35,7 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="RT data.ctl" Type="VI" URL="../Type Defs/RT data.ctl"/>
 		<Item Name="RT Engine Refs.ctl" Type="VI" URL="../Type Defs/RT Engine Refs.ctl"/>
+		<Item Name="RT UEGO Setting Time Data.ctl" Type="VI" URL="../Type Defs/RT UEGO Setting Time Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>

@@ -464,7 +464,6 @@
 			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../System Explorer/Runtime Menu Items/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -751,7 +750,6 @@ DirectoryIndex index.htm
 			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../System Explorer/Runtime Menu Items/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
