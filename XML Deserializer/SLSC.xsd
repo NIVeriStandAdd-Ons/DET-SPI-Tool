@@ -33,6 +33,7 @@
 <xs:element type="xs:unsignedByte" name="DIOLineConfig1" minOccurs="0"/>
 <xs:element type="xs:unsignedByte" name="DIOLineConfig2" minOccurs="0"/>
 <xs:element type="xs:unsignedByte" name="DIOLineConfig3" minOccurs="0"/>
+<xs:element type="xs:unsignedInt" name="HardwareSettlingTime" minOccurs="0"/>
 <xs:element name="Channels" minOccurs="0">
 <xs:complexType>
 <xs:sequence>
@@ -53,9 +54,6 @@
 </xs:sequence>
 </xs:complexType>
 </xs:element>
-<xs:element type="xs:unsignedInt" name="HardwareSettlingTime" minOccurs="0"/>
-<xs:element type="xs:unsignedInt" name="CalibrationTime" minOccurs="0"/>
-<xs:element type="xs:string" name="FPGAItemName" minOccurs="0"/>
 </xs:sequence>
 </xs:complexType>
 </xs:element>

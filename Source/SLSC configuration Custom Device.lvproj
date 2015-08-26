@@ -110,9 +110,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
-			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../../XML Deserializer/SLSC Deserializer/SLSC Deserializer/bin/Release/SLSC Deserializer.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">

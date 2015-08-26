@@ -2,3 +2,4 @@ C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deseria
 C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\bin\Release\SLSC Deserializer.pdb
 C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Release\SLSC Deserializer.dll
 C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Release\SLSC Deserializer.pdb
+C:\Files\Custom VeriStand Development\DET-SPI-Tool\XML Deserializer\SLSC Deserializer\SLSC Deserializer\obj\Release\SLSC Deserializer.csprojResolveAssemblyReference.cache

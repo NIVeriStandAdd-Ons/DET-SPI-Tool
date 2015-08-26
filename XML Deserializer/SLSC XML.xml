@@ -317,26 +317,28 @@
 			<Rack>0</Rack>
 			<Slot>5</Slot>
 			<HardwareSettlingTime>1</HardwareSettlingTime>
-			<Channel>
-				<Name>Calibration 1</Name>
-				<ChannelNumber>1</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 2</Name>
-				<ChannelNumber>2</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 3</Name>
-				<ChannelNumber>3</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 4</Name>
-				<ChannelNumber>4</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
+      <Channels>
+			  <Channel>
+				  <Name>Calibration 1</Name>
+				  <ChannelNumber>1</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 2</Name>
+				  <ChannelNumber>2</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 3</Name>
+				  <ChannelNumber>3</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 4</Name>
+				  <ChannelNumber>4</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+      </Channels>
 		</Module>
 		<Module>
 			<Name>UEGO 2</Name>
@@ -344,26 +346,28 @@
 			<Rack>0</Rack>
 			<Slot>6</Slot>
 			<HardwareSettlingTime>1</HardwareSettlingTime>
-			<Channel>
-				<Name>Calibration 1</Name>
-				<ChannelNumber>1</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 2</Name>
-				<ChannelNumber>2</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 3</Name>
-				<ChannelNumber>3</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
-			<Channel>
-				<Name>Calibration 4</Name>
-				<ChannelNumber>4</ChannelNumber>
-				<DefaultValue>0</DefaultValue>
-			</Channel>
+      <Channels>
+			  <Channel>
+				  <Name>Calibration 1</Name>
+				  <ChannelNumber>1</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 2</Name>
+				  <ChannelNumber>2</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 3</Name>
+				  <ChannelNumber>3</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+			  <Channel>
+				  <Name>Calibration 4</Name>
+				  <ChannelNumber>4</ChannelNumber>
+				  <DefaultValue>0</DefaultValue>
+			  </Channel>
+      </Channels>
 		</Module>
 		<Module>
 			<Name>Current Sense</Name>

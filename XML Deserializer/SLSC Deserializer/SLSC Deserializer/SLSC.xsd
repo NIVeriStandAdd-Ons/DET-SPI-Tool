@@ -1,68 +1,66 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
-<xs:element name="SLSC">
-<xs:complexType>
-<xs:sequence>
-<xs:element name="FPGAConfiguration">
-<xs:complexType>
-<xs:sequence>
-<xs:element type="xs:string" name="RIODeviceAddress"/>
-<xs:element type="xs:string" name="Path"/>
-<xs:element type="xs:unsignedShort" name="FPGALoadDelay"/>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-<xs:element name="SPIConfiguration">
-<xs:complexType>
-<xs:sequence>
-<xs:element type="xs:unsignedShort" name="SPIDivideValue"/>
-<xs:element type="xs:unsignedInt" name="SampleRate"/>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-<xs:element name="Modules">
-<xs:complexType>
-<xs:sequence>
-<xs:element name="Module" maxOccurs="unbounded" minOccurs="0">
-<xs:complexType>
-<xs:sequence>
-<xs:element type="xs:string" name="Name"/>
-<xs:element type="xs:string" name="Type"/>
-<xs:element type="xs:unsignedByte" name="Rack"/>
-<xs:element type="xs:unsignedByte" name="Slot"/>
-<xs:element type="xs:unsignedByte" name="DIOLineConfig0" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="DIOLineConfig1" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="DIOLineConfig2" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="DIOLineConfig3" minOccurs="0"/>
-<xs:element name="Channels" minOccurs="0">
-<xs:complexType>
-<xs:sequence>
-<xs:element name="Channel" maxOccurs="unbounded" minOccurs="0">
-<xs:complexType>
-<xs:sequence>
-<xs:element type="xs:string" name="Name"/>
-<xs:element type="xs:unsignedByte" name="SwitchNumber" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="ThresholdNumber" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="FaultNumber" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="LEDNumber" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="ChannelNumber" minOccurs="0"/>
-<xs:element type="xs:unsignedByte" name="ResistanceNumber" minOccurs="0"/>
-<xs:element type="xs:double" name="DefaultValue"/>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-<xs:element type="xs:unsignedInt" name="HardwareSettlingTime" minOccurs="0"/>
-<xs:element type="xs:unsignedInt" name="CalibrationTime" minOccurs="0"/>
-<xs:element type="xs:string" name="FPGAItemName" minOccurs="0"/>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
+  <xs:element name="SLSC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="FPGAConfiguration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="RIODeviceAddress"/>
+              <xs:element type="xs:string" name="Path"/>
+              <xs:element type="xs:unsignedShort" name="FPGALoadDelay"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPIConfiguration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:unsignedShort" name="SPIDivideValue"/>
+              <xs:element type="xs:unsignedInt" name="SampleRate"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Modules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Module" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Name"/>
+                    <xs:element type="xs:string" name="Type"/>
+                    <xs:element type="xs:unsignedByte" name="Rack"/>
+                    <xs:element type="xs:unsignedByte" name="Slot"/>
+                    <xs:element type="xs:unsignedByte" name="DIOLineConfig0" minOccurs="0"/>
+                    <xs:element type="xs:unsignedByte" name="DIOLineConfig1" minOccurs="0"/>
+                    <xs:element type="xs:unsignedByte" name="DIOLineConfig2" minOccurs="0"/>
+                    <xs:element type="xs:unsignedByte" name="DIOLineConfig3" minOccurs="0"/>
+                    <xs:element type="xs:unsignedInt" name="HardwareSettlingTime" minOccurs="0"/>
+                    <xs:element name="Channels" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Channel" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Name"/>
+                                <xs:element type="xs:unsignedByte" name="SwitchNumber" minOccurs="0"/>
+                                <xs:element type="xs:unsignedByte" name="ThresholdNumber" minOccurs="0"/>
+                                <xs:element type="xs:unsignedByte" name="FaultNumber" minOccurs="0"/>
+                                <xs:element type="xs:unsignedByte" name="LEDNumber" minOccurs="0"/>
+                                <xs:element type="xs:unsignedByte" name="ChannelNumber" minOccurs="0"/>
+                                <xs:element type="xs:unsignedByte" name="ResistanceNumber" minOccurs="0"/>
+                                <xs:element type="xs:double" name="DefaultValue"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
