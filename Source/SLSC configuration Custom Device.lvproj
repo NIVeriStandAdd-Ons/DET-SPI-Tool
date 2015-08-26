@@ -120,6 +120,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABE103FD-8E06-4287-92FA-28F9CAA41336}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -132,7 +133,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7A5BFD4E-EA9B-43BF-BEAA-FFE2779897DC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B7A01C2-0A9D-4ADC-A43D-1E85AF0C0439}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -153,6 +154,7 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -163,7 +165,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/SLSC configuration/SLSC configuration Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF685E31-46FD-4415-9BCB-1233F9431E4C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B7A01C2-0A9D-4ADC-A43D-1E85AF0C0439}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -226,6 +228,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration/SLSC configuration Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E93022C-2E5B-4058-865F-DEB05CE955D3}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -234,7 +237,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/SLSC configuration/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7A5BFD4E-EA9B-43BF-BEAA-FFE2779897DC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B7A01C2-0A9D-4ADC-A43D-1E85AF0C0439}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
@@ -249,7 +252,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration/SLSC configuration Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -258,7 +261,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/SLSC configuration/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B7A01C2-0A9D-4ADC-A43D-1E85AF0C0439}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
@@ -459,9 +462,7 @@
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
 			<Item Name="SLSC configuration System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC configuration System Explorer.lvlib"/>
-			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../../XML Deserializer/SLSC Deserializer/SLSC Deserializer/bin/Release/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -472,7 +473,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F695DE45-75F7-4EEF-8A23-F09E00E4906D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/SLSC configuration Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -484,7 +485,7 @@
 				<Property Name="Destination[1].path" Type="Path">/c/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1B74FDB-E933-45FF-A2CF-0CF469EDB97D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BB6E6013-715A-415B-A0BB-D87C6453889C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
@@ -499,7 +500,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/SLSC configuration Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -511,7 +512,7 @@
 				<Property Name="Destination[1].path" Type="Path">/c/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1B74FDB-E933-45FF-A2CF-0CF469EDB97D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BB6E6013-715A-415B-A0BB-D87C6453889C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
@@ -745,9 +746,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Res Sim compiled.ctl" Type="VI" URL="../Shared/Type Defs/Res Sim compiled.ctl"/>
 			<Item Name="SLSC configuration System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC configuration System Explorer.lvlib"/>
-			<Item Name="SLSC Deserializer" Type="VI" URL="SLSC Deserializer">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="SLSC Deserializer.dll" Type="Document" URL="../../XML Deserializer/SLSC Deserializer/SLSC Deserializer/bin/Release/SLSC Deserializer.dll"/>
 			<Item Name="SLSC FPGA Toolkit.lvlib" Type="Library" URL="../../Example/SPI API Test/FPGA/SLSC FPGA Toolkit.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -758,7 +757,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AB96E1-CE77-4756-AE25-3A67741FA33C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/SLSC configuration Engine VxWorks.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -770,7 +769,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/c/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76876736-607A-4DF9-B72A-FA567C04234B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DBD1EC99-3BB2-4D19-B706-13F035008E92}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
@@ -785,7 +784,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC configuration</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{404D6B07-67A0-4316-9956-B550D4D5F685}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/SLSC configuration Engine VxWorks.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -797,7 +796,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/c/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76876736-607A-4DF9-B72A-FA567C04234B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DBD1EC99-3BB2-4D19-B706-13F035008E92}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/SLSC configuration Engine.lvlib/RT Driver VI.vi</Property>
