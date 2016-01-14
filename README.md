@@ -14,6 +14,9 @@ No built version
 
 In progress
 
+### Known Issues ###
+
+1. Only the Configuration Debug build specification works. Building Configuration Release instead will always mark your bitfile as invalid.
 
 ### Dependencies ###
 
